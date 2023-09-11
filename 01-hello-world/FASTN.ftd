@@ -1,0 +1,4 @@
+;; check: https://fastn.com/workshop/hello-world/ for instructions
+-- import: fastn
+
+-- fastn.package: hello
