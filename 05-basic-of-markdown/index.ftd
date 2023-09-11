@@ -1,0 +1,26 @@
+;; check: https://fastn.com/workshop/basics-of-markdown/ for instructions
+-- import: fastn-community.github.io/bling/quote
+-- import: fastn-community.github.io/doc-site as ds
+
+
+
+-- ds.page: Page Title
+site-name: My Site
+
+;; Checkout the code below:
+;; We have used `ds.markdown` component which takes string in body area. It is
+;; basic `ftd.text` component with some decorative properties.
+;;
+;; You can even use basic component like `ftd.text` and pass the below value.
+;; The result will be same.
+-- ds.markdown:
+
+The `-` gets convert into unordered list:
+
+- This is a **bold** text.
+- This is an *italic* text.
+- This is a [link](https://fastn.com/) text.
+- This is a `quote` text.
+
+
+-- end: ds.page

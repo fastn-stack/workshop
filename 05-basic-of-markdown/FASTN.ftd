@@ -1,0 +1,8 @@
+;; check: https://fastn.com/workshop/basics-of-markdown/ for instructions
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/bling
+
+-- fastn.dependency: fastn-community.github.io/doc-site
