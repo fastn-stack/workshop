@@ -1,0 +1,20 @@
+-- import: hello/assets
+-- import: fastn-community.github.io/doc-site
+
+
+
+-- component page:
+optional caption title:
+children uis:
+optional body details:
+
+-- doc-site.page: $page.title
+site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 60
+wrapper: $page.uis
+body: $page.details
+
+-- end: doc-site.page
+
+-- end: page

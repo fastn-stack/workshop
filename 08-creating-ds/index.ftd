@@ -1,0 +1,14 @@
+;; check: https://fastn.com/workshop/ds/ for instructions
+-- import: hello/ds
+
+
+
+
+
+-- ds.page: Creating ds
+
+Creating our own page helps to define the page component values according to
+your site. You can define the site name, site logo and many other things once
+for your site and can use it across different module.
+
+-- end: ds.page
