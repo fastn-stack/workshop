@@ -1,12 +1,8 @@
 ;; check: https://fastn.com/workshop/add-sitemap/ for instructions
--- import: fastn-community.github.io/doc-site as ds
--- import: hello/assets
+-- import: hello/ds
 
 
 -- ds.page: New page
-site-name: My Site
-site-logo: $assets.files.static.logo.svg
-logo-width: 60
 
 Clicking on this [link](/) will take you to corresponding rendered version
 of `index.ftd`. Look at the link/url that we have used here for **/**.
@@ -23,6 +19,5 @@ Furthermore, it's important to note that when using `fastn`, the default URL for
 an `index.ftd` file within a folder is derived from the folder's name. For
 instance, if an `index.ftd` file exists at the path `/a/index.ftd`, its default
 URL would be automatically generated as `/a/`.
-
 
 -- end: ds.page
