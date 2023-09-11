@@ -33,9 +33,8 @@ time we fall.
 
 ;; This is the end marker for this container type component.
 ;; It uses `end:` keyword followed by component name, which is `ds.page` here.
-;; ========================= REMOVE THE COMMENT BELOW ==========================
--- end: ds.page
-;; ================================= END =======================================
 ;;
 ;; By placing `end` marker after the `quote.chalice` component, the
 ;; `quote.chalice` would become child of the `ds.page`.
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- end: ds.page
