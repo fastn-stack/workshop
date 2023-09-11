@@ -1,10 +1,12 @@
 ;; check: https://fastn.com/workshop/add-sitemap/ for instructions
 -- import: fastn-community.github.io/doc-site as ds
-
+-- import: hello/assets
 
 
 -- ds.page: New page
 site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 60
 
 Clicking on this [link](/) will take you to corresponding rendered version
 of `index.ftd`. Look at the link/url that we have used here for **/**.

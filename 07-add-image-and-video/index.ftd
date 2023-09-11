@@ -8,8 +8,26 @@
 
 
 
+
+
+;; Let's add logo to our site.
+;; The assets module includes a noteworthy variable called files that allows us
+;; to conveniently access files, such as images. For instance, if we have an
+;; image named `logo.svg` located within the static folder, we can access it
+;; using the syntax `assets.files.static.logo.svg`.
+;;
+;; Also ds.page comes up with a field called `site-logo` where you can add your
+;; site logo.
+;;
+;;
 -- ds.page: Adding image and video
 site-name: My Site
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; site-logo: $assets.files.static.logo.svg
+;; ================================= END =======================================
+
+
+
 
 
 ;; If the image is available in some link you can directly pass the link as the
@@ -22,11 +40,7 @@ site-name: My Site
 ;; ================================= END =======================================
 
 
-;; The assets module includes a noteworthy variable called files that allows us
-;; to conveniently access files, such as images. For instance, if we have an
-;; image named `img.png` located within the static folder, we can access it
-;; using the syntax `assets.files.static.img.png`.
-;;
+
 ;; Additionally, it's worth noting that there is another image named
 ;; `img-dark.png` also situated in the static folder. In the context of `fastn`,
 ;; this image serves as the dark-mode version of the same image. You can

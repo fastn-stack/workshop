@@ -1,9 +1,11 @@
 -- import: fastn-community.github.io/doc-site as ds
-
+-- import: hello/assets
 
 
 -- ds.page: Page `B`
 site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 60
 
 Added for demo of sitemap.
 
