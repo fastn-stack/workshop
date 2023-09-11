@@ -1,0 +1,25 @@
+;; check: https://fastn.com/workshop/add-quote/ for instructions
+-- import: fastn
+
+-- fastn.package: hello
+
+;; Here we are adding a dependency of package `fastn-community.github.io/bling`.
+;;
+;; Interesting fact here is the name of this package is same as its live site
+;; url.
+;;
+;; Checkout `https://fastn-community.github.io/bling/` in browser to check the
+;; components offered by this package.
+;;
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+
+;; -- fastn.dependency: fastn-community.github.io/bling
+
+;; ================================= END =======================================
+;;
+;; The required components of this dependency package can then be used anywhere
+;; in the package.
+;;
+;; We have used the `quote` component of this dependency package in `index.ftd`.
+;; Checkout https://fastn-community.github.io/bling/quote/ to know more about
+;; quote components offered by bling.
