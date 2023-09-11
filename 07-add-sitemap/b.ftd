@@ -1,0 +1,10 @@
+-- import: fastn-community.github.io/doc-site as ds
+
+
+
+-- ds.page: Page `B`
+site-name: My Site
+
+Added for demo of sitemap.
+
+-- end: ds.page
