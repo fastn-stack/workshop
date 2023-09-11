@@ -1,0 +1,6 @@
+;; check: https://fastn.com/workshop/add-image-and-video/ for instructions
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/doc-site

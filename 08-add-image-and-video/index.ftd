@@ -1,0 +1,54 @@
+;; check: https://fastn.com/workshop/add-image-and-video/ for instructions
+-- import: fastn-community.github.io/doc-site as ds
+
+;; `fastn` comes with a special module `assets`. Besides many things that you
+;; can access using this module, you can access the file system of the package.
+;; To access the image present in package, we need to import this module first.
+-- import: hello/assets
+
+
+
+-- ds.page: Adding image and video
+site-name: My Site
+
+
+;; If the image is available in some link you can directly pass the link as the
+;; value for `src` property in `ftd.image`.
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- ftd.image:
+;; src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
+;; width.fixed.px: 400
+;; height.fixed.px: 200
+;; ================================= END =======================================
+
+
+;; The assets module includes a noteworthy variable called files that allows us
+;; to conveniently access files, such as images. For instance, if we have an
+;; image named `img.png` located within the static folder, we can access it
+;; using the syntax `assets.files.static.img.png`.
+;;
+;; Additionally, it's worth noting that there is another image named
+;; `img-dark.png` also situated in the static folder. In the context of `fastn`,
+;; this image serves as the dark-mode version of the same image. You can
+;; experience the contrast by toggling between dark mode and light mode to
+;; observe the differences.
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- ftd.image:
+;; src: $assets.files.static.img.png
+;; width.fixed.px: 400
+;; height.fixed.px: 200
+;; ================================= END =======================================
+
+
+
+
+;; You can include any youtube video by getting the `vid` of the video
+;; For instance, the URL of the video is `https://www.youtube.com/watch?v=_yM7y_Suaio`,
+;; then `_yM7y_Suaio` is the vid of the video.
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- ftd.iframe:
+;; youtube: _yM7y_Suaio
+;; ================================= END =======================================
+
+
+-- end: ds.page
