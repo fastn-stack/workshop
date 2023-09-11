@@ -1,0 +1,32 @@
+;; check: https://fastn.com/workshop/change-cs-and-typo/ for instructions
+-- import: fastn-community.github.io/doc-site as ds
+-- import: fastn-community.github.io/bling/quote
+-- import: fastn-community.github.io/saturated-sunset-cs as cs
+-- import: fastn-community.github.io/lobster-typography as typo
+
+
+-- ds.page: Change color scheme and typography
+site-name: My Site
+;; Uncomment the below line and reload the page to check your page in
+;; Saturated Sunset color scheme
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; colors: $cs.main
+;; ================================= END =======================================
+;; Uncomment the below line and reload the page to check your page in lobster
+;; typography
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; types: $typo.types
+;; ================================= END =======================================
+
+We have used `fastn-community.github.io/saturated-sunset-cs` for color scheme
+and `fastn-community.github.io/lobster-typography` for typography.
+
+;; The beautiful part is that this quote.chrome component blends with your new
+;; color scheme and typography
+;;
+-- quote.chrome: Nelson Mandela
+
+The greatest glory in living lies not in never falling, but in rising every
+time we fall.
+
+-- end: ds.page
