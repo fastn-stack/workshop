@@ -1,0 +1,41 @@
+;; check: https://fastn.com/workshop/add-doc-site/ for instructions
+-- import: fastn-community.github.io/bling/quote
+
+;; As you know from previous example, the keyword `doc-site` becomes the default
+;; alias, but you can provide any alias for the same.
+;; Here we have defined an alias as `ds`. This is achieved by giving the alias
+;; name after the module name followed by `as`.
+;;
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- import: fastn-community.github.io/doc-site as ds
+;; ================================= END =======================================
+
+
+
+
+;; Since `page` is the container type component. You can add any number of
+;; components in its subsection.
+;; The container type component needs an `end` statement to mark the end of this
+;; container component.
+;;
+;; Also you can give the title to the page and `site-name` of your site, as
+;; given in code below:
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- ds.page: Page Title
+;; site-name: My Site
+;; ================================= END =======================================
+
+-- quote.chalice: Nelson Mandela
+
+The greatest glory in living lies not in never falling, but in rising every
+time we fall.
+
+
+;; This is the end marker for this container type component.
+;; It uses `end:` keyword followed by component name, which is `ds.page` here.
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+-- end: ds.page
+;; ================================= END =======================================
+;;
+;; By placing `end` marker after the `quote.chalice` component, the
+;; `quote.chalice` would become child of the `ds.page`.
