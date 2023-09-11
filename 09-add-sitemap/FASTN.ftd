@@ -4,6 +4,7 @@
 -- fastn.package: hello
 
 -- fastn.dependency: fastn-community.github.io/doc-site
+-- fastn.dependency: fastn-community.github.io/bling
 
 
 ;; Maintaining a package's sitemap is highly beneficial. This sitemap

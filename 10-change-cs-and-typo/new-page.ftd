@@ -1,0 +1,23 @@
+;; check: https://fastn.com/workshop/add-sitemap/ for instructions
+-- import: hello/ds
+
+
+-- ds.page: New page
+
+Clicking on this [link](/) will take you to corresponding rendered version
+of `index.ftd`. Look at the link/url that we have used here for **/**.
+
+This is a newly created page, and its default URL path is set to `/new-page/` as
+per the standard behavior of the `fastn` module. The default URL path generation
+in `fastn` is based on the hierarchical structure of the package's folders. In
+this case, since the page resides at the root level of the package, it naturally
+corresponds to the URL path `/new-page/`. However, if this page were located
+within a subfolder, such as `/a/new-page.ftd`, the default URL would mirror the
+folder structure, resulting in `/a/new-page/`.
+
+Furthermore, it's important to note that when using `fastn`, the default URL for
+an `index.ftd` file within a folder is derived from the folder's name. For
+instance, if an `index.ftd` file exists at the path `/a/index.ftd`, its default
+URL would be automatically generated as `/a/`.
+
+-- end: ds.page
