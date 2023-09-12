@@ -29,53 +29,12 @@ portfolio website
 16-sidebar
 17-portfolio-website (we need only few sections for portfolio website)
 
-## create a new section
+## Other Workshops
 
-01-hello-world (let's teach some attributes here, color, padding)
-02-basic-text-properties (role: $inherited, manual?)
-03-decorative properties (border, background, padding, margin)
-03-image (image properties)
-03-containers(row, column, spacing)
-- document variables
-- records (defining, and using)
-- or-type?
-- lists, loops
-- inheritance
-- regular component
-- mutable variables and *operator
-- event handling (user defined functions)
-- category stuff
-- documentation page (as arpita created)
-
-## create a new theme
-
-- ftd.document (title, favicon, seo)
-- sitemap processor
-- custom container component
-
-## create new design system
-
-- color-scheme (create a new color scheme)
-- typography (create a new typography)
-- font
-- figma stuff
-
-
-## Full Stack App
-
-- record
-- list, loop
-- http
-- sql
-- forms
-- ajax
-- dynamic url
-- redirect
-- return json
-
-
-## javascript interop
-
-- interop: css, js, web-component
+- [frontend: create a new section](a-section)
+- [frontend: create a new theme](b-theme)
+- [frontend: create new design system](c-design)
+- [backend: create an http app](d-http)
+- [backend: create an SQL app](e-sql)
 
 </details>
