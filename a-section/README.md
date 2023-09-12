@@ -1,5 +1,7 @@
 # `fastn` Frontend Workshop: Build An Image Gallery (Section)
 
+![](image-gallery.png)
+
 01-hello-world (let's teach some attributes here, color, padding)
 02-basic-text-properties (role: $inherited, manual?)
 03-decorative properties (border, background, padding, margin)
