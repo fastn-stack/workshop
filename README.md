@@ -10,8 +10,9 @@ Workshop](https://fastn.com/workshop/).
 
 <details><summary>Upcoming Stuff</summary>
 
-
 ## create website using fastn
+
+Audience: end users of fastn (nandhini persona)
 
 portfolio website
 
@@ -29,12 +30,20 @@ portfolio website
 16-sidebar
 17-portfolio-website (we need only few sections for portfolio website)
 
-## Other Workshops
+## Developers Workshops
 
 - [frontend: create a new section](a-section)
 - [frontend: create a new theme](b-theme)
 - [frontend: create new design system](c-design)
 - [backend: create an http app](d-http)
 - [backend: create an SQL app](e-sql)
+
+## Designers Workshop
+
+- designer working with a tech team that uses fastn
+  - checkout c-design
+- designers who learn fastn so they do not depend on tech team, or their
+  prototypes are better
+  - checkout a-section and b-theme
 
 </details>
