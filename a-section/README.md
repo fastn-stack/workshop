@@ -1,3 +1,5 @@
+# `fastn` Frontend Workshop: Build An Image Gallery (Section)
+
 01-hello-world (let's teach some attributes here, color, padding)
 02-basic-text-properties (role: $inherited, manual?)
 03-decorative properties (border, background, padding, margin)
@@ -5,7 +7,6 @@
 03-containers(row, column, spacing)
 - document variables
 - records (defining, and using)
-- or-type?
 - lists, loops
 - inheritance
 - regular component
