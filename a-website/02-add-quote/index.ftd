@@ -10,7 +10,7 @@
 ;; last word after `/`. Now you can use `quote` to access the components present
 ;; in this module.
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
--- import: fastn-community.github.io/bling/quote
+;; -- import: fastn-community.github.io/bling/quote
 ;; ================================= END =======================================
 
 
@@ -18,8 +18,8 @@
 ;; Here we have used the component `chalice` with some values:
 
 ;; ======================== REMOVE THE COMMENTS BELOW ==========================
--- quote.chalice: Nelson Mandela
-
-The greatest glory in living lies not in never falling, but in rising every
-time we fall.
+;; -- quote.chalice: Nelson Mandela
+;;
+;; The greatest glory in living lies not in never falling, but in rising every
+;; time we fall.
 ;; ================================= END =======================================
