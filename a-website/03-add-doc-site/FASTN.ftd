@@ -5,6 +5,17 @@
 -- fastn.dependency: fastn-community.github.io/bling
 
 ;; doc-site components which gives it documentation site like look.
-;; Uncomment next line
+
+;; UNCOMMENT NEXT LINE
 -- fastn.dependency: fastn-community.github.io/doc-site
 
+;; We will auto-import `doc-site`. Auto-import is done in `FASTN.ftd`.
+;; Auto-importing is done only for those packages that you want to apply 
+;; to the entire packages.
+
+;; UNCOMMENT NEXT LINE
+-- fastn.auto-import: fastn-community.github.io/doc-site as ds
+
+;; As you know from previous example, the keyword `doc-site` becomes the default
+;; alias, but you can give shorter alias by using `as` command.
+;; For `doc-site` we use alias as `ds`.

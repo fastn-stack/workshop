@@ -1,0 +1,14 @@
+;; check: https://fastn.com/workshop/add-sitemap/ for instructions
+-- import: hello/ds
+-- import: fastn-community.github.io/bling/quote
+
+
+
+-- ds.page: Page Title
+
+-- quote.chrome: Nelson Mandela
+
+The greatest glory in living lies not in never falling, but in rising every
+time we fall.
+
+-- end: ds.page

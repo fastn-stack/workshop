@@ -1,0 +1,57 @@
+-- import: fastn-community.github.io/bling/quote
+-- import: hello/assets
+
+
+;; This ds.page with the properties will move to the `ds.ftd`
+
+;; ========================= COMMENT BELOW ds.page =============================
+-- ds.page: Page Title
+site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 40
+;; ================================= END =======================================
+
+
+;; Instead now we just need to use `-- ds.page`
+
+
+-- ftd.image:
+src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
+width: fill-container
+
+
+-- quote.background-image: Lucius Annaeus Seneca
+quote-background: https://e0.pxfuel.com/wallpapers/491/601/desktop-wallpaper-ultra-original-and-background-it-ultra.jpg
+text-color: #FFF
+
+As long as you live, keep learning how to live.
+
+-- ds.h1: This is `h1` header
+
+Header title can be passed in the caption area.
+You can also add multiline body when using the header components.
+
+-- ftd.image:
+src: $assets.files.static.img.jpg
+width: fill-container
+
+-- ds.h2: This is `h2` header
+
+This is second level of header. Similary `doc-site` has h3.
+
+-- ds.youtube:
+v: _yM7y_Suaio
+
+
+-- ds.markdown:
+
+`fastn` supports `markdown` syntax. 
+
+The `-` gets convert into unordered list:
+
+- This is a **bold** text.
+- This is an *italic* text.
+- This is a [link](https://fastn.com/) text.
+- This is a `quote` text.
+
+-- end: ds.page

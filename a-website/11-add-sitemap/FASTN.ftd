@@ -1,0 +1,28 @@
+;; check: https://fastn.com/workshop/add-sitemap/ for instructions
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/doc-site
+-- fastn.dependency: fastn-community.github.io/bling
+
+
+;; Maintaining a package's sitemap is highly beneficial. This sitemap
+;; encompasses various sections, subsections, and a table of contents (TOC).
+;; Packages like `fastn-community.github.io/doc-site` utilize this sitemap data
+;; to dynamically display it in the website's header, navbar, and sidebar.
+;;
+;; This approach effectively organizes the site's content in a logical manner,
+;; significantly improving the accessibility of pertinent information.
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+- `a` page: /a/
+
+## Subsec B: /b/
+
+# Other: /new-page/

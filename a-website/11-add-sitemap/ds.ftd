@@ -1,0 +1,23 @@
+-- import: hello/assets
+-- import: fastn-community.github.io/doc-site
+
+
+;; Creating our own page helps to define the page component values according to
+;; your site. You can define the site name, site logo and many other things once
+;; for your site and can use it across different module.
+;;
+-- component page:
+optional caption title:
+children uis:
+optional body details:
+
+-- doc-site.page: $page.title
+site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 60
+wrapper: $page.uis
+body: $page.details
+
+-- end: doc-site.page
+
+-- end: page

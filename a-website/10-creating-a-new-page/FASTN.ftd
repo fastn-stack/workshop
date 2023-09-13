@@ -1,0 +1,5 @@
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/doc-site

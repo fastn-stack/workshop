@@ -4,7 +4,7 @@
 
 ;; To add quote we will add a package called `fastn-community.github.io/bling`. 
 
-;; Uncomment next line
+;; UNCOMMENT NEXT LINE
 ;; -- fastn.dependency: fastn-community.github.io/bling
 
 ;; Interesting fact: package name is same as its documentation, go ahead 

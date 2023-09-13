@@ -1,0 +1,31 @@
+;; check: https://fastn.com/workshop/add-sitemap/ for instructions
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/doc-site
+
+;; We are going to use `fastn-community.github.io/saturated-sunset-cs` for color
+;; scheme and `fastn-community.github.io/lobster-typography` for typography.
+;;
+;; You can try to any color scheme or typography.
+;; Checkout https://fastn.com/featured/cs/ for color scheme.
+;; Checkout https://fastn.com/featured/fonts/ for typography.
+;;
+-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+-- fastn.dependency: fastn-community.github.io/lobster-typography
+-- fastn.dependency: fastn-community.github.io/bling
+
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+- `a` page: /a/
+
+## Subsec B: /b/
+
+# Other: /new-page/

@@ -1,6 +1,0 @@
-;; check: https://fastn.com/workshop/add-new-page/ for instructions
--- import: fastn
-
--- fastn.package: hello
-
--- fastn.dependency: fastn-community.github.io/doc-site

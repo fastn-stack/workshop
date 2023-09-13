@@ -1,0 +1,29 @@
+-- import: hello/assets
+-- import: fastn-community.github.io/doc-site
+export: markdown,h0,h1,h2,h3,code,rendered,output,image,iframe,youtube,compact-text,post,posts,featured-post,image-first,image-in-between,without-image,author-bio,tip,not-found-1,not-found-2,link,link-group,without-image-half
+
+;; Exporting lets you share component definitions, variables, and elements from one
+;; package with others. When you import this package elsewhere, you can use these
+;; shared definitions as if they were originally part of that package.. 
+
+
+
+;; Creating our own page helps to define the page component values according to
+;; your site. You can define the site name, site logo, color scheme and 
+;; typography etc once, for your site and can use it across different module.
+
+-- component page:
+optional caption title:
+children uis:
+optional body details:
+
+-- doc-site.page: $page.title
+site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 40
+wrapper: $page.uis
+body: $page.details
+
+-- end: doc-site.page
+
+-- end: page

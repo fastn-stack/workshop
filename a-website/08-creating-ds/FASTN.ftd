@@ -1,6 +1,0 @@
-;; check: https://fastn.com/workshop/ds/ for instructions
--- import: fastn
-
--- fastn.package: hello
-
--- fastn.dependency: fastn-community.github.io/doc-site

@@ -1,0 +1,86 @@
+-- import: fastn-community.github.io/bling/quote
+;; `fastn` comes with a special module `assets`. With `assets` you can access 
+;; the file system of the package.
+;; UNCOMMENT NEXT LINE to import this module.
+;; -- import: hello/assets
+
+
+
+
+;; Let's add logo to our site.
+;; The assets module includes a noteworthy variable called files that allows us
+;; to conveniently access files, such as images. For instance, if we have an
+;; image named `logo.svg` located within the static folder, we can access it
+;; using the syntax `assets.files.static.logo.svg`.
+
+;; `ds.page` comes up with a property called `site-logo` where you can add your
+;; site logo.
+
+
+-- ds.page: Page Title
+site-name: My Site
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; site-logo: $assets.files.static.logo.svg
+;; ================================= END =======================================
+logo-width: 40
+
+
+;; If the image is available in some link you can directly pass the link as the
+;; value for `src` property in `ftd.image`.
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- ftd.image:
+src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
+width: fill-container
+;; ================================= END =======================================
+
+-- quote.background-image: Lucius Annaeus Seneca
+quote-background: https://e0.pxfuel.com/wallpapers/491/601/desktop-wallpaper-ultra-original-and-background-it-ultra.jpg
+text-color: #FFF
+
+As long as you live, keep learning how to live.
+
+-- ds.h1: This is `h1` header
+
+Header title can be passed in the caption area.
+You can also add multiline body when using the header components.
+
+;; Additionally, it's worth noting that there is another image named
+;; `img-dark.png` also situated in the static folder. In the context of `fastn`,
+;; this image serves as the dark-mode version of the same image. You can
+;; experience the contrast by toggling between dark mode and light mode to
+;; observe the differences.
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- ftd.image:
+src: $assets.files.static.img.jpg
+width: fill-container
+;; ================================= END =======================================
+
+
+-- ds.h2: This is `h2` header
+
+This is second level of header. Similary `doc-site` has h3.
+
+;; You can include any youtube video by getting the `vid` of the video
+;; For instance, the URL of the video is `https://www.youtube.com/watch?v=_yM7y_Suaio`,
+;; then `_yM7y_Suaio` is the vid of the video.
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- ds.youtube:
+v: _yM7y_Suaio
+;; ================================= END =======================================
+
+
+-- ds.markdown:
+
+`fastn` supports `markdown` syntax. 
+
+The `-` gets convert into unordered list:
+
+- This is a **bold** text.
+- This is an *italic* text.
+- This is a [link](https://fastn.com/) text.
+- This is a `quote` text.
+
+-- end: ds.page

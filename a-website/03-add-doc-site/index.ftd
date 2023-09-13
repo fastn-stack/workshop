@@ -1,14 +1,5 @@
 -- import: fastn-community.github.io/bling/quote
 
-;; As you know from previous example, the keyword `doc-site` becomes the default
-;; alias, but you can give shorter alias by using `as` command.
-;; For `doc-site` we use alias as `ds`.
-
-;; ========================= REMOVE THE COMMENT BELOW ==========================
-;; -- import: fastn-community.github.io/doc-site as ds
-;; ================================= END =======================================
-
-
 ;; `page` is the container type component in `doc-site`. All other components of
 ;; doc-site can be used inside `page` component.
 ;; The container type component needs an `end` statement to mark the end of this
@@ -16,6 +7,7 @@
 
 ;; Page title goes in the caption area.
 ;; Also, you can give the `site-name` of your site as header property
+
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
 /-- ds.page: Page Title
 site-name: My Site
@@ -31,9 +23,9 @@ As long as you live, keep learning how to live.
 ;; By placing `end` marker after the `quote.chalice` component, the
 ;; `quote.chalice` would become child of the `ds.page`.
 
-;; ========================= REMOVE THE COMMENT BELOW ==========================
-/-- end: ds.page
-;; ================================= END =======================================
-
 ;; This is the end marker for this container type component.
 ;; It uses `end:` keyword followed by component name, which is `ds.page` here.
+
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- end: ds.page

@@ -1,0 +1,45 @@
+-- import: fastn-community.github.io/bling/quote
+
+-- ds.page: Page Title
+site-name: My Site
+
+-- quote.background-image: Lucius Annaeus Seneca
+quote-background: https://e0.pxfuel.com/wallpapers/491/601/desktop-wallpaper-ultra-original-and-background-it-ultra.jpg
+text-color: #FFF
+
+As long as you live, keep learning how to live.
+
+;; To add the heading to your content use the header components of `doc-site`.
+;; `doc-site` has three levels of heading: h1, h2 and h3
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- ds.h1: This is `h1` header
+
+Header title can be passed in the caption area.
+You can also add multiline body when using the header components.
+;; ================================= END =======================================
+
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- ds.h2: This is `h2` header
+
+This is second level of header. Similary `doc-site` has h3.
+;; ================================= END =======================================
+
+
+;; `doc-site` also has `ds.markdown` component which takes string in body area. 
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- ds.markdown:
+
+`fastn` supports `markdown` syntax. 
+
+The `-` gets convert into unordered list:
+
+- This is a **bold** text.
+- This is an *italic* text.
+- This is a [link](https://fastn.com/) text.
+- This is a `quote` text.
+;; ================================= END =======================================
+
+-- end: ds.page
