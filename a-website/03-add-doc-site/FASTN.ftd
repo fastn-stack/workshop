@@ -1,10 +1,10 @@
-;; check: https://fastn.com/workshop/add-doc-site/ for instructions
 -- import: fastn
 
 -- fastn.package: hello
 
 -- fastn.dependency: fastn-community.github.io/bling
 
-;; Added doc-site dependency
-;; This dependency has components which gives it documentation site like look.
+;; doc-site components which gives it documentation site like look.
+;; Uncomment next line
 -- fastn.dependency: fastn-community.github.io/doc-site
+

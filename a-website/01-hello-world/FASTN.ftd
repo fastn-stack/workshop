@@ -1,7 +1,7 @@
-;; check: https://fastn.com/workshop/hello-world/ for instructions
 -- import: fastn
 
-
-;; This contains the name of the package.
-;; It should be same as your site url (If your web app is live).
 -- fastn.package: hello
+
+;; hello is the package name.
+;; If you website is live then package name will be same as your site url
+;; Notice: one line gap between between `import` and `fastn package`

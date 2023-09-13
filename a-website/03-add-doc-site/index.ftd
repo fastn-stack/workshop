@@ -1,40 +1,39 @@
-;; check: https://fastn.com/workshop/add-doc-site/ for instructions
 -- import: fastn-community.github.io/bling/quote
 
 ;; As you know from previous example, the keyword `doc-site` becomes the default
-;; alias, but you can provide any alias for the same.
-;; Here we have defined an alias as `ds`. This is achieved by giving the alias
-;; name after the module name followed by `as`.
-;;
+;; alias, but you can give shorter alias by using `as` command.
+;; For `doc-site` we use alias as `ds`.
+
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
 ;; -- import: fastn-community.github.io/doc-site as ds
 ;; ================================= END =======================================
 
 
-
-
-;; Since `page` is the container type component. You can add any number of
-;; components in its subsection.
+;; `page` is the container type component in `doc-site`. All other components of
+;; doc-site can be used inside `page` component.
 ;; The container type component needs an `end` statement to mark the end of this
 ;; container component.
-;;
-;; Also you can give the title to the page and `site-name` of your site, as
-;; given in code below:
+
+;; Page title goes in the caption area.
+;; Also, you can give the `site-name` of your site as header property
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-;; -- ds.page: Page Title
-;; site-name: My Site
+/-- ds.page: Page Title
+site-name: My Site
 ;; ================================= END =======================================
 
--- quote.chalice: Nelson Mandela
+-- quote.background-image: Lucius Annaeus Seneca
+quote-background: https://e0.pxfuel.com/wallpapers/491/601/desktop-wallpaper-ultra-original-and-background-it-ultra.jpg
+text-color: #FFF
 
-The greatest glory in living lies not in never falling, but in rising every
-time we fall.
+As long as you live, keep learning how to live.
 
+
+;; By placing `end` marker after the `quote.chalice` component, the
+;; `quote.chalice` would become child of the `ds.page`.
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- end: ds.page
+;; ================================= END =======================================
 
 ;; This is the end marker for this container type component.
 ;; It uses `end:` keyword followed by component name, which is `ds.page` here.
-;;
-;; By placing `end` marker after the `quote.chalice` component, the
-;; `quote.chalice` would become child of the `ds.page`.
-;; ========================= REMOVE THE COMMENT BELOW ==========================
-;; -- end: ds.page

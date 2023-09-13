@@ -1,25 +1,17 @@
-;; check: https://fastn.com/workshop/add-quote/ for instructions
+;; In `index.ftd` we will import the quote module from bling package.
 
-
-;; This dependency package is added in FASTN.ftd.
-;; Here we have imported the quote module from bling package.
-;;
-;; Checkout https://fastn-community.github.io/bling/quote/ to know more about
-;; quote components offered by bling.
-;; The keyword `quote` becomes the default alias for this module, as it is the
-;; last word after `/`. Now you can use `quote` to access the components present
-;; in this module.
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
 ;; -- import: fastn-community.github.io/bling/quote
 ;; ================================= END =======================================
+;; The last word ie. quote, becomes the default alias for using the quote 
+;; components
 
 
+;; Now use the component `chalice` of the quote module with some values:
 
-;; Here we have used the component `chalice` with some values:
+;; ======================== REMOVE THE COMMENT BELOW ==========================
+/-- quote.chrome: Nelson Mandela
 
-;; ======================== REMOVE THE COMMENTS BELOW ==========================
-;; -- quote.chalice: Nelson Mandela
-;;
-;; The greatest glory in living lies not in never falling, but in rising every
-;; time we fall.
+The greatest glory in living lies not in never falling, but in rising every
+time we fall.
 ;; ================================= END =======================================
