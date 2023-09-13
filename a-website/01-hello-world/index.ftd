@@ -6,7 +6,7 @@
 ;; lines starting with ;; (semi-colon) are comments
 ;;
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-;; -- ftd.text: hello world
+-- ftd.text: hello world
 ;; ================================= END =======================================
 ;;
 ;; use "-- ftd.text: hello world" on a line without comments and quotes and
