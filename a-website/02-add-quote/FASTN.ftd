@@ -13,7 +13,7 @@
 ;;
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
 
--- fastn.dependency: fastn-community.github.io/bling
+;; -- fastn.dependency: fastn-community.github.io/bling
 
 ;; ================================= END =======================================
 ;;
