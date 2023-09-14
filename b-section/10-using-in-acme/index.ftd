@@ -40,7 +40,7 @@ embrace transforms the world into a breathtaking masterpiece.
 
 ;; Lets use it as our hero
 ;; UNCOMMENT THE BELOW CODE
--- imgallery.gallery:
+/-- imgallery.gallery:
 gallery-list: $glist
 
 
