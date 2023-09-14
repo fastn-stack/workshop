@@ -1,124 +1,47 @@
 -- import: hello/assets
 
-;; ===================== Method: 1 ============================================
--- ftd.row:
-width.fixed.percent: 80
-padding.px: 50
-spacing.fixed.px: 40
-background.solid: $inherited.colors.background.base
-
--- ftd.column:
-width.fixed.percent: 60
-spacing.fixed.px: 20
-
--- ftd.text: Mountain Winter
-role: $inherited.types.heading-large
-padding-vertical.px: 10
-padding-horizontal.px: 15
-border-bottom-width.px: 7
-border-style: dotted
-border-color: $inherited.colors.cta-primary.border
-background.solid: $inherited.colors.cta-primary.base
-color: $inherited.colors.cta-primary.text
-
--- ftd.text:
-role: $inherited.types.copy-regular
-
-Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
-Picture a landscape blanketed in pristine, glistening snow, where nature's icy
-embrace transforms the world into a breathtaking masterpiece.
-
--- end: ftd.column
-
--- ftd.image:
-src: $assets.files.static.img-1.jpg
-width.fixed.percent: 40
-height.fixed.px: 250
-
--- end: ftd.row
-
-;; ================================= END =======================================
+;; ===================== REMOVE COMMENTS =======================================
+/-- record gallery-data:
+caption title:
+optional body subtitle:
+ftd.image-src image:
 
 
-
-
-
-;; ===================== Method: 2 =============================================
-;; UNCOMMENT THE BELOW LINE
-/-- show-gallery:
-
-
-
-
-
-;; UNCOMMENT THE BELOW COMPONENT
-/-- component show-gallery:
-
--- ftd.row:
-width.fixed.percent: 80
-padding.px: 50
-spacing.fixed.px: 40
-background.solid: $inherited.colors.background.base
-
--- ftd.column:
-width.fixed.percent: 60
-spacing.fixed.px: 20
-
--- ftd.text: Mountain Winter
-role: $inherited.types.heading-large
-padding-vertical.px: 10
-padding-horizontal.px: 15
-border-bottom-width.px: 7
-border-style: dotted
-border-color: $inherited.colors.cta-primary.border
-background.solid: $inherited.colors.cta-primary.base
-color: $inherited.colors.cta-primary.text
-
--- ftd.text:
-role: $inherited.types.copy-regular
-
-Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
-Picture a landscape blanketed in pristine, glistening snow, where nature's icy
-embrace transforms the world into a breathtaking masterpiece.
-
--- end: ftd.column
-
--- ftd.image:
-src: $assets.files.static.img-1.jpg
-width.fixed.percent: 40
-height.fixed.px: 250
-
--- end: ftd.row
-
--- end: show-gallery
-
-;; ================================= END =======================================
-
-
-
-
-
-
-
-
-;; ===================== Method: 2 =============================================
-;; UNCOMMENT THE BELOW LINE
-/-- show-gallery: Mountain Winter
+/-- gallery-data mountain-winter: Mountain Winter
 image: $assets.files.static.img-1.jpg
 
 Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
 Picture a landscape blanketed in pristine, glistening snow, where nature's icy
 embrace transforms the world into a breathtaking masterpiece.
 
+/-- show-gallery: $mountain-winter
+
+;; ================================= END =======================================
+
+
+
+;; ===================== COMMENT THIS =======================================
+
+-- show-gallery: Mountain Winter
+image: $assets.files.static.img-1.jpg
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+;; ================================= END =======================================
 
 
 
 
-;; UNCOMMENT THE BELOW COMPONENT
-/-- component show-gallery:
+-- component show-gallery:
+;; ===================== COMMENT THIS =======================================
 caption title:
 optional body subtitle:
 ftd.image-src image:
+;; ================================= END =======================================
+;; REMOVE COMMENT
+;; caption gallery-data data:
 
 -- ftd.row:
 width.fixed.percent: 80
@@ -130,7 +53,11 @@ background.solid: $inherited.colors.background.base
 width.fixed.percent: 60
 spacing.fixed.px: 20
 
+;; REMOVE COMMENT
+;; -- ftd.text: $show-gallery.data.title
+;; COMMENT THIS
 -- ftd.text: $show-gallery.title
+;; END
 role: $inherited.types.heading-large
 padding-vertical.px: 10
 padding-horizontal.px: 15
@@ -142,21 +69,31 @@ color: $inherited.colors.cta-primary.text
 
 -- ftd.text:
 role: $inherited.types.copy-regular
+;; REMOVE COMMENT
+;; if: { show-gallery.data.subtitle != NULL }
+;; COMMENT THIS
 if: { show-gallery.subtitle != NULL }
+;; END
 
+
+;; REMOVE COMMENT
+;; $show-gallery.data.subtitle
+
+;; COMMENT THIS
 $show-gallery.subtitle
+;; END
 
 -- end: ftd.column
 
 -- ftd.image:
+;; REMOVE COMMENT
+;; src: $show-gallery.data.image
+;; COMMENT THIS
 src: $show-gallery.image
+;; END
 width.fixed.percent: 40
 height.fixed.px: 250
 
 -- end: ftd.row
 
 -- end: show-gallery
-
-;; ================================= END =======================================
-
-;; We will continue with Method 2
