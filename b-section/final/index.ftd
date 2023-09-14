@@ -67,9 +67,9 @@ background.solid: $inherited.colors.background.base
 border-radius.px: 20
 
 -- show-gallery: $obj
-for: obj in $gallery.gallery-list
+for: obj, index in $gallery.gallery-list
 current-slide: $gallery.current-slide
-index: $LOOP.COUNTER
+index: $index
 
 -- show-navigations:
 gallery-list: $gallery.gallery-list
@@ -146,9 +146,9 @@ align-content: center
 spacing.fixed.px: 10
 
 -- show-nav:
-for: obj in $show-navigations.gallery-list
+for: obj, index in $show-navigations.gallery-list
 $current-slide: $show-navigations.current-slide
-index: $LOOP.COUNTER
+index: $index
 
 -- end: ftd.row
 
