@@ -101,7 +101,7 @@ height.fixed.px: 250
 
 
 
-;; ===================== Method: 2 =============================================
+;; ===================== Method: 3 =============================================
 ;; UNCOMMENT THE BELOW LINE
 /-- show-gallery: Mountain Winter
 image: $assets.files.static.img-1.jpg
@@ -159,4 +159,4 @@ height.fixed.px: 250
 
 ;; ================================= END =======================================
 
-;; We will continue with Method 2
+;; We will continue with Method 3
