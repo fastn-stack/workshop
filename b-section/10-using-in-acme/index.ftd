@@ -1,0 +1,119 @@
+-- import: hello
+
+
+-- hello.gallery-data list glist:
+
+-- hello.gallery-data: Mountain Winter
+image: $assets.files.assets.img-1.jpg
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+
+-- hello.gallery-data: Snow on Fire
+image: $assets.files.assets.img-2.png
+
+"Snow on Fire" is a captivating natural phenomenon that occurs when the cold,
+wintry landscape meets the radiant warmth of a fiery element, resulting in a
+unique and mesmerizing spectacle.
+
+
+-- hello.gallery-data: Spring in Forest
+image: $assets.files.assets.img-3.png
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+-- end: glist
+
+
+
+
+
+
+
+
+
+-- ws.page:
+
+;; Lets use it as our hero
+;; UNCOMMENT THE BELOW CODE
+-- hello.gallery:
+gallery-list: $glist
+
+
+-- ws.hero-with-image: We transform ideas into digital outcomes.
+cta-primary: Learn More
+cta-primary-link: #about
+image: $assets.files.assets.landing.png
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+
+
+
+-- ws.content: Built for the next generation of small business
+id: about
+
+Fastn is an all-in-one payments platform where businesses can connect, transact,
+and grow together.
+
+-- ws.hero-image-left: Create
+image: $assets.files.assets.left-img1.jpg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- ws.hero-image-right: Engage
+image: $assets.files.assets.right-img.jpg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- ws.hero-image-left: Analyze
+image: $assets.files.assets.left-img2.jpg
+
+Welcome Studio gives you all the tools you need to create and host virtual
+experiences that look awesome and put your brand centerstage.
+
+-- ws.hero-with-image: Experiences
+image: $assets.files.assets.landing.png
+align-right: true
+
+Lorem ipsum dolor sit amet
+
+-- ws.banner-card: SEE HOW MUCH FASTER YOU CAN GET PAID WITH FASTN
+info-cards: $common.list-of-info-cards
+
+Use our calculator to see how many days we can free up in cash flow for your
+business.
+
+-- ws.testimonials-card:
+testimonials: $common.list-of-testimonials
+nav: $common.navs
+
+-- ws.features-card: We Transform ideas into digital outcomes
+features: $common.list-of-features
+tag: KICKER
+id: services
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- ws.faqs: Frequently Asked Questions
+faqs-list: $common.list-of-faqs
+
+Flex is the only saas business platform that lets you run your business on one
+platform, seamlessly across all digital channels.
+
+-- ws.logo-cloud: Trusted by the top companies in this industry
+logo-list: $common.list-of-logos
+id: clients
+
+The only SaaS business platform that combines CRM, marketing automation &
+commerce.
+
+-- end: ws.page

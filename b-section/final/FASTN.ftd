@@ -1,6 +1,0 @@
--- import: fastn
-
-
--- fastn.package: hello
-
--- fastn.dependency: hello/assets

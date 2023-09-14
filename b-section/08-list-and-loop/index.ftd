@@ -41,11 +41,14 @@ embrace transforms the world into a breathtaking masterpiece.
 
 
 
+-- ftd.column:
+width.fixed.percent: 80
+margin.px: 80
 
 -- gallery:
 gallery-list: $glist
 
-
+-- end: ftd.column
 
 
 
@@ -66,9 +69,7 @@ ftd.image-src image:
 gallery-data list gallery-list:
 
 -- ftd.column:
-width.fixed.percent: 80
 padding.px: 40
-margin.px: 80
 background.solid: $inherited.colors.background.base
 border-radius.px: 20
 

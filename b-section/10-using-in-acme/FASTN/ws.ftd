@@ -1,0 +1,123 @@
+-- import: cs
+-- import: typo
+
+-- import: theme
+export: footer-badge, hero-with-image, logo-cloud, content, hero-image-left, hero-image-right, banner-card, testimonials-card, features-card, faqs, search-card, tc-popup, tc-item, tc-item-item, featured-post, posts, h2, h3, markdown, post-card, post, image, contact-us, row-container, contact-form, iframe
+exposing: markdown, post, h3
+
+-- ftd.image-src acme-logo: $assets.files.assets.ipsum-logo.svg
+
+
+
+
+
+
+
+
+
+
+-- component page:
+children wrapper:
+optional caption title:
+optional body body:
+boolean sidebar: false
+ftd.ui list right-sidebar:
+optional string document-title: fastn web site template. Build Your Own Website with Ease
+optional string document-description: Simple, easy-to-use web site template to build your own start-up website. Change colours and typography effortlessly.
+ftd.raw-image-src document-image: https://fastn.com/-/fastn.com/images/fastn-logo.png
+optional string site-name:
+optional ftd.image-src site-logo: $acme-logo
+boolean full-width: true
+boolean blog: false
+boolean show-banner: false
+ftd.ui list banner:
+ftd.ui list hero:
+optional boolean github-icon: false
+optional string github-url:
+boolean breadcrumb: false
+boolean login-button: false
+integer logo-width: $common.logo-width
+integer logo-height: 28
+
+-- theme.page: $page.title
+site-logo: $page.site-logo
+site-name: $page.site-name
+body: $page.body
+show-footer: true
+right-sidebar: $page.right-sidebar
+sidebar: $page.sidebar
+document-title: $page.document-title
+document-description: $page.document-description
+document-image: $page.document-image
+github-url: $page.github-url
+github-icon: $page.github-icon
+full-width: $page.full-width
+blog: $page.blog
+show-banner: $page.show-banner
+banner: $page.banner
+hero: $page.hero
+breadcrumb: $page.breadcrumb
+login-button: $page.login-button
+logo-width: $page.logo-width
+logo-height: $page.logo-height
+colors: $cs.main
+types: $typo.types
+
+
+-- theme.page.footer:
+
+-- theme.footer-badge: Copyright © 2023 Acme Inc.
+
+-- end: theme.page.footer
+
+-- ftd.column:
+spacing.fixed.em: 0.8
+width: fill-container
+children: $page.wrapper
+
+-- end: ftd.column
+
+-- end: theme.page
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component article:
+caption title:
+common.post-meta post:
+optional body data:
+children uis:
+
+
+-- page:
+blog: true
+
+-- post:
+meta: $article.post
+
+-- h3: $article.title
+
+-- markdown:
+if: { article.data != NULL }
+
+$article.data
+
+-- ui:
+$loop$: $article.uis as $ui
+
+-- end: page
+
+
+-- end: article

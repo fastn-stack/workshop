@@ -1,0 +1,14 @@
+-- import: fastn
+
+
+-- fastn.package: my-site
+
+-- fastn.dependency: hello
+-- fastn.dependency: fastn-community.github.io/midnight-rush as theme
+-- fastn.dependency: fastn-community.github.io/midnight-rush-cs as cs
+-- fastn.dependency: fastn-community.github.io/midnight-rush-typography as typo
+
+-- fastn.auto-import: my-site/FASTN/ws
+-- fastn.auto-import: my-site/assets
+-- fastn.auto-import: theme
+-- fastn.auto-import: theme/common
