@@ -71,8 +71,8 @@ light: #0071B0
 dark: #0071B0
 
 -- ftd.color cta-primary-border-:
-light: #0096EB
-dark: #0096EB
+light: #01517f
+dark: #01517f
 
 -- ftd.color cta-primary-text-:
 light: #ffffff
@@ -393,4 +393,3 @@ success: $success-btb-
 info: $info-btb-
 warning: $warning-btb-
 custom: $custom-
-    

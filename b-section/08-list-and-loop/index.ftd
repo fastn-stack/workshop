@@ -117,6 +117,7 @@ color: $inherited.colors.cta-primary.text
 
 -- ftd.text:
 role: $inherited.types.copy-regular
+color: $inherited.colors.text
 if: { show-gallery.data.subtitle != NULL }
 
 $show-gallery.data.subtitle

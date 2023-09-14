@@ -1,1 +1,4 @@
--- ftd.text: Hello World
+;; `;;` or `/` is used to comment single line or whole section respectively
+
+;; REMOVE THE COMMENT BELOW
+;; -- ftd.text: Hello World
