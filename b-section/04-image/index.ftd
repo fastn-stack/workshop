@@ -1,6 +1,6 @@
 -- import: hello/assets
 
--- ftd.text: Hello World
+-- ftd.text: Mountain Winter
 role: $inherited.types.heading-large
 padding-vertical.px: 10
 padding-horizontal.px: 15

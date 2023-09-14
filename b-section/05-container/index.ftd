@@ -1,16 +1,16 @@
 -- import: hello/assets
 
--- ftd.row:
-width.fixed.percent: 80
-padding.px: 50
-spacing.fixed.px: 40
-background.solid: $inherited.colors.background.base
+;; -- ftd.row:
+;; width.fixed.percent: 80
+;; padding.px: 50
+;; spacing.fixed.px: 40
+;; background.solid: $inherited.colors.background.base
 
--- ftd.column:
-width.fixed.percent: 60
-spacing.fixed.px: 20
+;; -- ftd.column:
+;; width.fixed.percent: 60
+;; spacing.fixed.px: 20
 
--- ftd.text: Hello World
+-- ftd.text: Mountain Winter
 role: $inherited.types.heading-large
 padding-vertical.px: 10
 padding-horizontal.px: 15
@@ -23,15 +23,15 @@ color: $inherited.colors.cta-primary.text
 -- ftd.text:
 role: $inherited.types.copy-regular
 
-Lorem ipsum dolor sit amet. Qui blanditiis fuga in odio aliquid non sint quae
-eum architecto dolorem est officia perferendis eum quia possimus. Et obcaecati
-dolor aut eligendi quia ea quis enim ab adipisci sapiente eos voluptas optio ut
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
 
--- end: ftd.column
+;; -- end: ftd.column
 
 -- ftd.image:
 src: $assets.files.static.img-1.jpg
 width.fixed.percent: 40
 height.fixed.px: 250
 
--- end: ftd.row
+;; -- end: ftd.row
