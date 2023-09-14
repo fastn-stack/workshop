@@ -70,7 +70,7 @@ gallery-data list gallery-list:
 
 -- ftd.column:
 padding.px: 40
-background.solid: $inherited.colors.background.base
+background.solid: $inherited.colors.background.step-2
 border-radius.px: 20
 
 ;; =========================== USING LOOP ======================================

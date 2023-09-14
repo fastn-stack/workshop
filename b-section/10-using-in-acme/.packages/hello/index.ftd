@@ -67,7 +67,7 @@ integer $current-slide: 0
 
 -- ftd.column:
 padding.px: 40
-background.solid: $inherited.colors.background.base
+background.solid: $inherited.colors.background.step-2
 border-radius.px: 20
 
 -- show-gallery: $obj

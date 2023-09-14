@@ -47,7 +47,7 @@ ftd.image-src image:
 width.fixed.percent: 80
 padding.px: 50
 spacing.fixed.px: 40
-background.solid: $inherited.colors.background.base
+background.solid: $inherited.colors.background.step-2
 
 -- ftd.column:
 width.fixed.percent: 60
