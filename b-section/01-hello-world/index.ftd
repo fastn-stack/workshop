@@ -1,6 +1,1 @@
 -- ftd.text: Hello World
-color: white
-background.solid: red
-padding-vertical.px: 10
-padding-horizontal.px: 15
-align-self: center

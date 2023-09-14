@@ -100,6 +100,13 @@ spacing.fixed.px: 20
 
 -- ftd.text: $show-gallery.data.title
 role: $inherited.types.heading-large
+padding-vertical.px: 10
+padding-horizontal.px: 15
+border-bottom-width.px: 7
+border-style: dotted
+border-color: $inherited.colors.cta-primary.border
+background.solid: $inherited.colors.cta-primary.base
+color: $inherited.colors.cta-primary.text
 
 -- ftd.text: $show-gallery.data.subtitle
 role: $inherited.types.copy-regular
