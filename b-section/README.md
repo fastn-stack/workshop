@@ -4,6 +4,10 @@
 
 
 Checkout the complete code here: https://github.com/fastn-community/image-gallery
+The Live package URL: https://fastn-community.github.io/image-gallery/
+
+The Live website using image-gallery component: https://arpita-jaiswal.github. io/arja-website/
+The pull request: https://github.com/Arpita-Jaiswal/arja-website/pull/1
 
 01-hello-world (let's teach some attributes here, color, padding)
 02-basic-text-properties (role: $inherited, manual?)
