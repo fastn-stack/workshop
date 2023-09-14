@@ -3,7 +3,6 @@
 
 
 ;; This ds.page with the properties will move to the `ds.ftd`
-
 ;; ========================= COMMENT BELOW ds.page =============================
 -- ds.page: Page Title
 site-name: My Site
@@ -13,6 +12,9 @@ logo-width: 40
 
 
 ;; Instead now we just need to use `-- ds.page`
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; -- ds.page: Page Title
+;; ================================= END =======================================
 
 
 -- ftd.image:
@@ -26,18 +28,22 @@ text-color: #FFF
 
 As long as you live, keep learning how to live.
 
+
 -- ds.h1: This is `h1` header
 
 Header title can be passed in the caption area.
 You can also add multiline body when using the header components.
 
+
 -- ftd.image:
 src: $assets.files.static.img.jpg
 width: fill-container
 
+
 -- ds.h2: This is `h2` header
 
 This is second level of header. Similary `doc-site` has h3.
+
 
 -- ds.youtube:
 v: _yM7y_Suaio

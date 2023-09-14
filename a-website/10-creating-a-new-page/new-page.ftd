@@ -1,13 +1,6 @@
-;; check: https://fastn.com/workshop/add-new-page/ for instructions
--- import: fastn-community.github.io/doc-site as ds
-
-
-
 -- ds.page: New page
-site-name: My Site
 
-Clicking on this [link](/) will take you to corresponding rendered version
-of `index.ftd`. Look at the link/url that we have used here for **/**.
+;; Look at the link/url that we have used here for **/**.
 
 This is a newly created page, and its default URL path is set to `/new-page/` as
 per the standard behavior of the `fastn` module. The default URL path generation
@@ -22,5 +15,7 @@ an `index.ftd` file within a folder is derived from the folder's name. For
 instance, if an `index.ftd` file exists at the path `/a/index.ftd`, its default
 URL would be automatically generated as `/a/`.
 
+;; UNCOMMENT NEXT LINE
+;; Go back to the [index page](/).
 
 -- end: ds.page

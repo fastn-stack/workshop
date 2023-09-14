@@ -1,0 +1,17 @@
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.dependency: fastn-community.github.io/midnight-rush
+
+;; From `featured page` we selected:
+;; color scheme: fastn-community.github.io/saturated-sunset-cs 
+;; typography: fastn-community.github.io/lobster-typography
+
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+/-- fastn.dependency: fastn-community.github.io/lobster-typography
+;; ================================= END =======================================
+
+-- fastn.auto-import: hello/ds

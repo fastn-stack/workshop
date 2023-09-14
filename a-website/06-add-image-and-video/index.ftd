@@ -62,8 +62,8 @@ width: fill-container
 
 This is second level of header. Similary `doc-site` has h3.
 
-;; You can include any youtube video by getting the `vid` of the video
-;; For instance, the URL of the video is `https://www.youtube.com/watch?v=_yM7y_Suaio`,
+;; Embed youtube video by getting the `vid` of the video
+;; Example, the URL is: `https://www.youtube.com/watch?v=_yM7y_Suaio`,
 ;; then `_yM7y_Suaio` is the vid of the video.
 
 ;; ========================= REMOVE THE COMMENT BELOW ==========================

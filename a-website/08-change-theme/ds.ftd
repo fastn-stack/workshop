@@ -1,0 +1,24 @@
+-- import: hello/assets
+;; REPLACE `doc-site` (COMMENT NEXT LINE)
+-- import: fastn-community.github.io/doc-site
+export: markdown,h0,h1,h2,h3,image,youtube
+
+;; WITH (UNCOMMENT NEXT LINE)
+/-- import: fastn-community.github.io/midnight-rush as doc-site
+export: markdown,h0,h1,h2,h3,image,youtube
+
+-- component page:
+optional caption title:
+children uis:
+optional body details:
+
+-- doc-site.page: $page.title
+site-name: My Site
+site-logo: $assets.files.static.logo.svg
+logo-width: 40
+wrapper: $page.uis
+body: $page.details
+
+-- end: doc-site.page
+
+-- end: page

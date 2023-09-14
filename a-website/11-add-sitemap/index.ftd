@@ -1,14 +1,51 @@
-;; check: https://fastn.com/workshop/add-sitemap/ for instructions
--- import: hello/ds
 -- import: fastn-community.github.io/bling/quote
-
-
+-- import: hello/assets
 
 -- ds.page: Page Title
 
--- quote.chrome: Nelson Mandela
+;; COMMENT NEXT LINE
+;; Go to the [new page](/new-page/).
 
-The greatest glory in living lies not in never falling, but in rising every
-time we fall.
+-- ftd.image:
+src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
+width: fill-container
+
+-- quote.background-image: Lucius Annaeus Seneca
+quote-background: https://e0.pxfuel.com/wallpapers/491/601/desktop-wallpaper-ultra-original-and-background-it-ultra.jpg
+text-color: #FFF
+
+As long as you live, keep learning how to live.
+
+
+-- ds.h1: This is `h1` header
+
+Header title can be passed in the caption area.
+You can also add multiline body when using the header components.
+
+
+-- ftd.image:
+src: $assets.files.static.img.jpg
+width: fill-container
+
+
+-- ds.h2: This is `h2` header
+
+This is second level of header. Similary `doc-site` has h3.
+
+
+-- ds.youtube:
+v: _yM7y_Suaio
+
+
+-- ds.markdown:
+
+`fastn` supports `markdown` syntax. 
+
+The `-` gets convert into unordered list:
+
+- This is a **bold** text.
+- This is an *italic* text.
+- This is a [link](https://fastn.com/) text.
+- This is a `quote` text.
 
 -- end: ds.page

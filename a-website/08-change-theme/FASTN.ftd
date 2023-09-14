@@ -1,0 +1,14 @@
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/bling
+
+;; Add new theme `midnight-rush` to give different look and feel to the website
+;; COMMENT NEXT LINE
+-- fastn.dependency: fastn-community.github.io/doc-site
+
+;; UNCOMMENT NEXT LINE
+/-- fastn.dependency: fastn-community.github.io/midnight-rush
+
+-- fastn.auto-import: hello/ds

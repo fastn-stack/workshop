@@ -13,5 +13,3 @@
 
 ;; UNCOMMENT NEXT LINE
 ;; -- fastn.auto-import: hello/ds
-
-;; Since `ds` is the default alias so we do not need to change any other files

@@ -1,7 +1,3 @@
-;; check: https://fastn.com/workshop/add-sitemap/ for instructions
--- import: hello/ds
-
-
 -- ds.page: Page `B`
 
 Added for demo of sitemap.
