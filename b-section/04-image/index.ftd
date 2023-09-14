@@ -11,6 +11,6 @@ background.solid: $inherited.colors.cta-primary.base
 color: $inherited.colors.cta-primary.text
 
 
--- ftd.image:
-src: $assets.files.static.img-1.jpg
-width: fill-container
+;; -- ftd.image:
+;; src: $assets.files.static.img-1.jpg
+;; width.fixed.percent: 40

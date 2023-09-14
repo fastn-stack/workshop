@@ -1,0 +1,37 @@
+-- import: hello/assets
+
+-- ftd.row:
+width.fixed.percent: 80
+padding.px: 50
+spacing.fixed.px: 40
+background.solid: $inherited.colors.background.base
+
+-- ftd.column:
+width.fixed.percent: 60
+spacing.fixed.px: 20
+
+-- ftd.text: Hello World
+role: $inherited.types.heading-large
+padding-vertical.px: 10
+padding-horizontal.px: 15
+border-bottom-width.px: 7
+border-style: dotted
+border-color: $inherited.colors.cta-primary.border
+background.solid: $inherited.colors.cta-primary.base
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+
+Lorem ipsum dolor sit amet. Qui blanditiis fuga in odio aliquid non sint quae
+eum architecto dolorem est officia perferendis eum quia possimus. Et obcaecati
+dolor aut eligendi quia ea quis enim ab adipisci sapiente eos voluptas optio ut
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $assets.files.static.img-1.jpg
+width.fixed.percent: 40
+height.fixed.px: 250
+
+-- end: ftd.row
