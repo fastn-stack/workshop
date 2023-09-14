@@ -1,0 +1,132 @@
+-- import: hello/assets
+
+
+;; ========================== VARIABLE =========================================
+-- gallery-data list glist:
+
+-- gallery-data: Mountain Winter
+image: $assets.files.static.img-1.jpg
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+
+;; REMOVE BELOW COMMENT
+/-- gallery-data: Snow on Fire
+image: $assets.files.static.img-2.png
+
+"Snow on Fire" is a captivating natural phenomenon that occurs when the cold,
+wintry landscape meets the radiant warmth of a fiery element, resulting in a
+unique and mesmerizing spectacle.
+
+
+;; REMOVE BELOW COMMENT
+/-- gallery-data: Spring in Forest
+image: $assets.files.static.img-3.png
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+
+-- end: glist
+
+;; ================================= END =======================================
+
+
+
+
+
+
+
+
+
+-- gallery:
+gallery-list: $glist
+
+
+
+
+
+
+
+
+
+-- record gallery-data:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+
+
+
+
+
+-- component gallery:
+gallery-data list gallery-list:
+
+-- ftd.column:
+width.fixed.percent: 80
+padding.px: 40
+margin.px: 80
+background.solid: $inherited.colors.background.base
+border-radius.px: 20
+
+;; =========================== USING LOOP ======================================
+
+-- show-gallery: $obj
+for: obj in $gallery.gallery-list
+
+;; ================================= END =======================================
+
+-- end: ftd.column
+
+-- end: gallery
+
+
+
+
+
+
+
+
+
+
+
+-- component show-gallery:
+caption gallery-data data:
+
+-- ftd.row:
+padding.px: 50
+spacing.fixed.px: 40
+
+-- ftd.column:
+width.fixed.percent: 60
+spacing.fixed.px: 20
+
+-- ftd.text: $show-gallery.data.title
+role: $inherited.types.heading-large
+padding-vertical.px: 10
+padding-horizontal.px: 15
+border-bottom-width.px: 7
+border-style: dotted
+border-color: $inherited.colors.cta-primary.border
+background.solid: $inherited.colors.cta-primary.base
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+if: { show-gallery.data.subtitle != NULL }
+
+$show-gallery.data.subtitle
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $show-gallery.data.image
+width.fixed.percent: 40
+height.fixed.px: 250
+
+-- end: ftd.row
+
+-- end: show-gallery
