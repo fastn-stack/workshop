@@ -1,9 +1,9 @@
--- import: hello
+-- import: fastn-community.github.io/image-gallery as imgallery
 
 
--- hello.gallery-data list glist:
+-- imgallery.gallery-data list glist:
 
--- hello.gallery-data: Mountain Winter
+-- imgallery.gallery-data: Mountain Winter
 image: $assets.files.assets.img-1.jpg
 
 Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
@@ -11,7 +11,7 @@ Picture a landscape blanketed in pristine, glistening snow, where nature's icy
 embrace transforms the world into a breathtaking masterpiece.
 
 
--- hello.gallery-data: Snow on Fire
+-- imgallery.gallery-data: Snow on Fire
 image: $assets.files.assets.img-2.png
 
 "Snow on Fire" is a captivating natural phenomenon that occurs when the cold,
@@ -19,7 +19,7 @@ wintry landscape meets the radiant warmth of a fiery element, resulting in a
 unique and mesmerizing spectacle.
 
 
--- hello.gallery-data: Spring in Forest
+-- imgallery.gallery-data: Spring in Forest
 image: $assets.files.assets.img-3.png
 
 Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
@@ -40,7 +40,7 @@ embrace transforms the world into a breathtaking masterpiece.
 
 ;; Lets use it as our hero
 ;; UNCOMMENT THE BELOW CODE
--- hello.gallery:
+-- imgallery.gallery:
 gallery-list: $glist
 
 

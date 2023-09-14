@@ -3,7 +3,9 @@
 
 -- fastn.package: my-site
 
--- fastn.dependency: hello
+;; THE `hello` package is deployed in `fastn-community.github.io/image-gallery`.
+;; We are going to use this.
+-- fastn.dependency: fastn-community.github.io/image-gallery
 -- fastn.dependency: fastn-community.github.io/midnight-rush as theme
 -- fastn.dependency: fastn-community.github.io/midnight-rush-cs as cs
 -- fastn.dependency: fastn-community.github.io/midnight-rush-typography as typo

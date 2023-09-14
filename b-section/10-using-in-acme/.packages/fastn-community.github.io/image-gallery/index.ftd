@@ -1,0 +1,237 @@
+-- import: fastn-community.github.io/image-gallery/assets
+
+
+-- gallery-data list glist:
+
+-- gallery-data: Mountain Winter
+image: $assets.files.static.img-1.jpg
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+
+-- gallery-data: Snow on Fire
+image: $assets.files.static.img-2.png
+
+"Snow on Fire" is a captivating natural phenomenon that occurs when the cold,
+wintry landscape meets the radiant warmth of a fiery element, resulting in a
+unique and mesmerizing spectacle.
+
+
+-- gallery-data: Spring in Forest
+image: $assets.files.static.img-3.png
+
+Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
+Picture a landscape blanketed in pristine, glistening snow, where nature's icy
+embrace transforms the world into a breathtaking masterpiece.
+
+-- end: glist
+
+
+
+
+
+
+
+
+-- ftd.column:
+width.fixed.percent: 80
+margin.px: 80
+
+-- gallery:
+gallery-list: $glist
+
+-- end: ftd.column
+
+
+
+
+
+
+
+
+
+-- record gallery-data:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+
+
+
+
+
+-- component gallery:
+gallery-data list gallery-list:
+integer $current-slide: 0
+
+-- ftd.column:
+padding.px: 40
+background.solid: $inherited.colors.background.base
+border-radius.px: 20
+
+-- show-gallery: $obj
+for: obj, index in $gallery.gallery-list
+current-slide: $gallery.current-slide
+index: $LOOP.COUNTER
+
+;; UNCOMMENT THE CODE BELLOW
+-- show-navigations:
+gallery-list: $gallery.gallery-list
+$current-slide: $gallery.current-slide
+
+-- end: ftd.column
+
+-- end: gallery
+
+
+
+
+
+
+
+
+
+
+
+-- component show-gallery:
+caption gallery-data data:
+integer current-slide:
+integer index:
+
+-- ftd.row:
+padding.px: 50
+spacing.fixed.px: 40
+if: { show-gallery.current-slide == show-gallery.index }
+
+-- ftd.column:
+width.fixed.percent: 60
+spacing.fixed.px: 20
+
+-- ftd.text: $show-gallery.data.title
+role: $inherited.types.heading-large
+padding-vertical.px: 10
+padding-horizontal.px: 15
+border-bottom-width.px: 7
+border-style: dotted
+border-color: $inherited.colors.cta-primary.border
+background.solid: $inherited.colors.cta-primary.base
+color: $inherited.colors.cta-primary.text
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+if: { show-gallery.data.subtitle != NULL }
+
+$show-gallery.data.subtitle
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $show-gallery.data.image
+width.fixed.percent: 40
+height.fixed.px: 250
+
+-- end: ftd.row
+
+-- end: show-gallery
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component show-navigations:
+gallery-data list gallery-list:
+integer $current-slide:
+integer length: $length(a = $show-navigations.gallery-list)
+
+-- ftd.row:
+padding-horizontal.px: 50
+width: fill-container
+spacing: space-between
+align-content: center
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- show-nav:
+for: obj in $show-navigations.gallery-list
+$current-slide: $show-navigations.current-slide
+index: $LOOP.COUNTER
+
+-- end: ftd.row
+
+-- ftd.image:
+src: $assets.files.static.next.svg
+width.fixed.px: 40
+$on-click$: $clamp-increment($a = $show-navigations.current-slide, max = $show-navigations.length)
+
+-- end: ftd.row
+
+-- end: show-navigations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component show-nav:
+integer index:
+integer $current-slide:
+
+-- ftd.row:
+width.fixed.px: 13
+height.fixed.px: 13
+border-radius.px: 10
+border-width.px: 1
+$on-click$: $ftd.set-integer($a = $show-nav.current-slide, v = $show-nav.index)
+background.solid if { show-nav.current-slide == show-nav.index }: $inherited.colors.custom.one
+background.solid: $inherited.colors.custom.six
+border-color: $inherited.colors.custom.seven
+
+-- end: ftd.row
+
+-- end: show-nav
+
+
+
+
+
+
+
+
+
+
+
+-- integer length(a):
+gallery-data list a:
+
+
+len(a)
+
+
+
+
+
+-- void clamp-increment(a):
+integer $a:
+integer max:
+
+a = (a + 1) % max

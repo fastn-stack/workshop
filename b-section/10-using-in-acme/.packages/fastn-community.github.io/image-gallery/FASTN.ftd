@@ -1,0 +1,6 @@
+-- import: fastn
+
+-- fastn.package: fastn-community.github.io/image-gallery
+
+
+-- fastn.dependency: fastn-community.github.io/image-gallery/assets
