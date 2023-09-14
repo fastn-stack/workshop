@@ -2,6 +2,9 @@
 
 ![](image-gallery.png)
 
+
+Checkout the complete code here: https://github.com/fastn-community/image-gallery
+
 01-hello-world (let's teach some attributes here, color, padding)
 02-basic-text-properties (role: $inherited, manual?)
 03-decorative properties (border, background, padding, margin)
