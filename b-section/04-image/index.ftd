@@ -1,0 +1,16 @@
+-- import: hello/assets
+
+-- ftd.text: Hello World
+role: $inherited.types.heading-large
+padding-vertical.px: 10
+padding-horizontal.px: 15
+border-bottom-width.px: 7
+border-style: dotted
+border-color: $inherited.colors.cta-primary.border
+background.solid: $inherited.colors.cta-primary.base
+color: $inherited.colors.cta-primary.text
+
+
+-- ftd.image:
+src: $assets.files.static.img-1.jpg
+width: fill-container
