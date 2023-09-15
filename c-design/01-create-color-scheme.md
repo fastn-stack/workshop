@@ -18,7 +18,7 @@
 
 - Commit the changes.
 
-- Color scheme is ready.
-![](pink-sakura-output.png)
+- The color scheme is ready.
+![](/c-design/pink-sakura-output.png)
 
 - You can move to [create font](/c-design/02-create-font.md)
