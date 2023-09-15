@@ -4,21 +4,21 @@
 ![](/c-design/static/cs-template.png)
 
 - Open the `colors.ftd` file.
-![](default-colors-file.png)
+![](/c-design/static/default-colors-file.png)
 
 - Edit the `colors.ftd` file and change all the colors. 
-![](modified-colors-file.png)
+![](/c-design/static/modified-colors-file.png)
 
 - Commit the changes.
 
 - Open `index.ftd` file.
 
 - Edit the file and replace all instances of `$ftd.default-colors` with `$main`.
-![](ftd-default-colors.png)
+![](/c-design/static/ftd-default-colors.png)
 
 - Commit the changes.
 
 - The color scheme is ready.
-![](pink-sakura-output.png)
+![](/c-design/static/pink-sakura-output.png)
 
 - You can move to [create font](/c-design/02-create-font.md)
