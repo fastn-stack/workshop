@@ -20,3 +20,5 @@
 
 - Color scheme is ready.
 ![](pink-sakura-output.png)
+
+- You can move to [create font](/c-design/02-create-font.md)
