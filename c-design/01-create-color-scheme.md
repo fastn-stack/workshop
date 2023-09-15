@@ -7,7 +7,7 @@
 ![](default-colors-file.png)
 
 - Edit the `colors.ftd` file and change all the colors. 
-![](modified-colors.file.png)
+![](modified-colors-file.png)
 
 - Commit the changes.
 
