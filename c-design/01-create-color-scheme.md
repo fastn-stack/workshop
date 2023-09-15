@@ -13,8 +13,10 @@
 
 - Open `index.ftd` file.
 
-- Edit the file and replace `$ftd.default-colors` with `$main`.
+- Edit the file and replace all instances of `$ftd.default-colors` with `$main`.
+![](ftd-default-colors.png)
 
 - Commit the changes.
 
-- Your color scheme is ready.
+- color scheme is ready.
+![](pink-sakura-output.png)
