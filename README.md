@@ -25,7 +25,6 @@ portfolio website
 
 ## Developers Workshops
 
-- [frontend: create a new section](/b-section/)
 - [frontend: create a new theme](c-theme)
 - [frontend: create new design system](d-design)
 - [backend: create an http app](e-http)
