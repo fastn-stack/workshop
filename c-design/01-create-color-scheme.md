@@ -18,5 +18,5 @@
 
 - Commit the changes.
 
-- color scheme is ready.
+- Color scheme is ready.
 ![](pink-sakura-output.png)
