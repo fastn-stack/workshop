@@ -1,13 +1,13 @@
 # Create a color scheme
 
-- Use the [color-scheme-template] to create the repository.
-![](/static/cs-template.png)
+- Use the [color-scheme-template](https://github.com/fastn-stack/color-scheme-template) to create the repository.
+![](cs-template.png)
 
 - Open the `colors.ftd` file.
-![](/static/default-colors-file.png)
+![](default-colors-file.png)
 
 - Edit the `colors.ftd` file and change all the colors. 
-![](/static/modified-colors.file.png)
+![](modified-colors.file.png)
 
 - Commit the changes.
 
