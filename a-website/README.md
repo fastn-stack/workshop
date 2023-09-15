@@ -13,9 +13,9 @@ Audience: End-users of `fastn`
 - [09-update-theme](/a-website/09-update-theme/)
 - [10-adding-new-page](/a-website/10-adding-new-page/)
 - [11-sitemap-sections-subsection-toc](/a-website/11-sitemap-sections-subsection-toc/)
-12-document
-13-redirect
-14-SEO-meta
-15-banner
-16-sidebar
-17-portfolio-website (we need only few sections for portfolio website)
+- 12-document
+- 13-redirect
+- 14-SEO-meta
+- 15-banner
+- 16-sidebar
+- 17-portfolio-website (we need only few sections for portfolio website)
