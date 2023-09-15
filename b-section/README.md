@@ -1,5 +1,7 @@
 # `fastn` Frontend Workshop: Build An Image Gallery (Section)
 
+Audience: Frontend developers
+
 ![](image-gallery.png)
 
 

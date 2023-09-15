@@ -25,11 +25,11 @@ portfolio website
 
 ## Developers Workshops
 
-- [frontend: create a new section](a-section)
-- [frontend: create a new theme](b-theme)
-- [frontend: create new design system](c-design)
-- [backend: create an http app](d-http)
-- [backend: create an SQL app](e-sql)
+- [frontend: create a new section](/b-section/)
+- [frontend: create a new theme](c-theme)
+- [frontend: create new design system](d-design)
+- [backend: create an http app](e-http)
+- [backend: create an SQL app](f-sql)
 
 ## Designers Workshop
 

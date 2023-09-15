@@ -1,5 +1,7 @@
 # `fastn` Frontend Workshop: Create a `portfolio` website
 
+Audience: End-users of `fastn`
+
 - [01-hello-world](/a-website/01-hello-world/)
 - [02-add-quote](/a-website/02-add-quote/)
 - [03-add-doc-site](/a-website/03-add-doc-site/)
