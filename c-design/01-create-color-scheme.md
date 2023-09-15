@@ -1,7 +1,7 @@
 # Create a color scheme
 
 - Use the [color-scheme-template](https://github.com/fastn-stack/color-scheme-template) to create the repository.
-![](cs-template.png)
+![](/c-design/static/cs-template.png)
 
 - Open the `colors.ftd` file.
 ![](default-colors-file.png)
