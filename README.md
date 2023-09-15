@@ -16,13 +16,6 @@ Audience: end users of fastn (nandhini persona)
 
 portfolio website
 
-05-basics-of-text (h1, h2, markdown)
-06-image-and-video
-07-create-ds
-08-update-cs-and-type
-09-update-theme
-10-adding-new-page
-11-sitemap-sections-subsection-toc
 12-document
 13-redirect
 14-SEO-meta
