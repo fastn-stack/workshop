@@ -9,14 +9,14 @@ The Live package URL: https://fastn-community.github.io/image-gallery/
 The Live website using image-gallery component: https://arpita-jaiswal.github.io/arja-website/
 The pull request: https://github.com/Arpita-Jaiswal/arja-website/pull/1
 
-01-hello-world (let's teach some attributes here, color, padding)
-02-basic-text-properties (role: $inherited, manual?)
-03-decorative properties (border, background, padding, margin)
-03-image (image properties)
-03-containers(row, column, spacing)
+- [01-hello-world](/b-section/01-hello-world/)
+- [02-basic-text-properties](/b-section/02-basic-text-properties/)
+- [03-decorative-properties](/b-section/03-decorative-properties/)
+- [04-image](/b-section/04-image/)
+- [05-containers](/b-section/05-containers/)
 - document variables
-- records (defining, and using)
-- lists, loops
+- [07-records](/b-section/07-records/)
+- [08-lists-and-loops](/b-section/08-lists-and-loops/)
 - inheritance
 - regular component
 - mutable variables and *operator
