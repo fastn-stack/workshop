@@ -2,54 +2,72 @@
 
 ## Prerequisites: 
 
-- Install Python 
+- Install [Python](https://www.python.org/downloads/) 
+
+- Also, if you do not have `pip` installed, follow the reference URL: https://packaging.python.org/en/latest/tutorials/installing-packages/
 
 ## Steps:
 
-- Use the 
-[font-template](https://github.com/fastn-stack/font-template) to create the repository.
-![](/c-design/static/font-template.png)
+- Clone [google-font-to-fastn](https://github.com/fastn-stack/google-font-to-fastn) repository into your local machine
 
-- Explore Google font: https://fonts.google.com/
+- Open the cloned repo through a text editor (eg Sublime Text)
 
-- Select the sizes of the font that is provided or the 
-selected google font
+- Explore Google font: https://fonts.google.com/ and choose the 
+font
+
+- Select all the sizes of the font that you want to have in your 
+font package
 
 - Copy the URL, for eg: https://fonts.googleapis.com/css2?family=Croissant+One&display=swap
 
-- Paste the URL in the new tab
+- Paste the URL in the new tab and copy the content of the 
+entire page
 
-- Select all and copy the generated data
+- In the cloned `google-font-to-fastn` repo, open the `font.txt` 
+file and replace the content of this file, with the copied 
+content
 
-- Clone [google-font-to-fastn](https://github.com/fastn-stack/google-font-to-fastn) repository into your local
+- Use the 
+[font-template](https://github.com/fastn-stack/font-template) to 
+create the font repository
+![](/c-design/static/font-template.png)
 
-- Open the cloned repo through a text editor
+> Naming convention: Use the google-font name (eg: Lato) and 
+append it with `-font`. (eg: lato-font, make sure the name is in 
+lowercase)
 
-- Open the `font.txt` file. Clear the default data and paste the generated data
+- Copy the the font repostory package name from the `FASTN.ftd` 
+file
 
-- Open the `read_google_font.py` file and search for 
-`package_name` field and change the `package_name` with your 
-font repository package name 
+- In the cloned `google-font-to-fastn` repo, open the 
+`read_google_font.py` file
+
+- Search for `package_name` variable and change the value with your font repository package name 
 (eg: fastn-community.github.io/lato-font)
 
-- Also search for `repo` field and change the value with the 
+- Also search for `repo` variable and change the value with the 
 alias name (eg: lato-font)
 
-- Open the terminal
+- Open the terminal and navigate to the directory of the cloned 
+`google-font-to-fastn` repo
 
+- Run the `python request` command 
+```
+python3 -m pip install requests
+```
+Note: If the python version is above 3 then this command will 
+work, else you can use `python -m pip install requests`
 
-- Run the `python request` command that is mentioned in the 
-[create-font-package](https://fastn.com/create-font-package/) URL .ie. `python3 -m pip install requests`
+- Once the installation is successful, run the 
+`read_google_font.py` script: 
+```
+python3 read_google_font.py
+```
+(This script will generate `FASTN.ftd` and `static` folder in 
+the `google-font-to-fastn` repository )
 
-Note: If the python version is above 3 then this command will work, else you can use `python -m pip install requests`
-
-
-- Once the installation is successful, go back to the 
-`create-font-package` URL and scroll down and copy the 
-`read_google_font.py` code and execute it in the terminal ie. 
-`python3 read_google_font.py`
-
-- Open the `FASTN.ftd` file and copy the `--fastn.font` sections 
+- Open the `FASTN.ftd` file and copy the all `--fastn.font` 
+sections
 
 - Now, open the `FASTN.ftd` of the font repository you created 
 using the font-template
