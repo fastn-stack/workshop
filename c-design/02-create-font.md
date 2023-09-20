@@ -25,7 +25,7 @@ selected google font
 
 - Open the cloned repo through a text editor
 
-- Open the `font.txt` file and paste the generated data
+- Open the `font.txt` file. Clear the default data and paste the generated data
 
 - Open the `read_google_font.py` file and search for 
 `package_name` field and change the `package_name` with your 
@@ -40,6 +40,8 @@ alias name (eg: lato-font)
 
 - Run the `python request` command that is mentioned in the 
 [create-font-package](https://fastn.com/create-font-package/) URL .ie. `python3 -m pip install requests`
+
+Note: If the python version is above 3 then this command will work, else you can use `python -m pip install requests`
 
 
 - Once the installation is successful, go back to the 
