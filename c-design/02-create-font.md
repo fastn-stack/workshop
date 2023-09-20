@@ -88,8 +88,7 @@ sections
 - Now, open the `FASTN.ftd` of the font repository you created 
 using the font-template
 
-- Paste the copied `--fastn.font` sections there and Commit the 
-changes
+- Paste the copied --fastn.font sections there and Commit the changes
 ![](/c-design/static/paste-fastn-font.png)
 
 - Now, open the `custom.ftd` file and replace <font-name> with 
@@ -110,6 +109,7 @@ and deployment` section
 - This will generate your live URL once the workflow `Page Build and Deployment` executes successfully
 
 - Open the URL and you will see the output
+![](/c-design/static/lato-output.png)
 
 - You can move to 
 [create typography](/c-design/02-create-typography.md)
