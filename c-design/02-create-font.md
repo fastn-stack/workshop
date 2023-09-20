@@ -60,12 +60,16 @@ the selected font name
 
 - Copy the `static` folder that was created in the 
 `google-font-to-fastn` repository when you executed the command 
-and paste it in your repository.
+and paste it in your repository
+
+- You have successfully created your custom font
 
 - Go to `Settings>Pages` and select `gh-pages` from the `Build 
 and deployment` section
 
-- You have successfully created your custom font
+- This will generate your live URL once the workflow `Page Build and Deployment` executes successfully
+
+- Open the URL and you will see the output
 
 - You can move to 
 [create typography](/c-design/02-create-typography.md)
