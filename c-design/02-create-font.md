@@ -83,24 +83,29 @@ the `google-font-to-fastn` repository)
 
 - Open the `FASTN.ftd` file and copy the all `--fastn.font` 
 sections
+![](/c-design/static/copy-fastn-font.png)
 
 - Now, open the `FASTN.ftd` of the font repository you created 
 using the font-template
 
 - Paste the copied `--fastn.font` sections there and Commit the 
 changes
+![](/c-design/static/paste-fastn-font.png)
 
 - Now, open the `custom.ftd` file and replace <font-name> with 
-the selected font name
+the selected font name (eg: Lato)
+![](/c-design/static/replace-font-name.png)
 
 - Copy the `static` folder that was created in the 
 `google-font-to-fastn` repository when you executed the command 
 and paste it in your repository
+![](/c-design/static/added-static-folder.png)
 
 - You have successfully created your custom font
 
 - Go to `Settings>Pages` and select `gh-pages` from the `Build 
 and deployment` section
+![](/c-design/static/lato-gf-pages.png)
 
 - This will generate your live URL once the workflow `Page Build and Deployment` executes successfully
 
