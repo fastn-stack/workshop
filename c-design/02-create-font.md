@@ -16,7 +16,7 @@ This workshop will help you create your fastn fonts.
 - Open the cloned repo through a text editor (eg Sublime Text)
 
 - Explore the [Google fonts](https://fonts.google.com/) and 
-choose the font you want to create in `fastn`
+choose the font you want to create in `fastn` (eg: lato)
 ![](/c-design/static/google-font-lato.png)
 
 - Select all the styles of the font that you want to have in 
@@ -31,7 +31,7 @@ entire page
 ![](/c-design/static/display-content.png)
 
 - In the cloned `google-font-to-fastn` repo, open the `font.txt`
-file and replace the content of this file, with the copied 
+file and replace the content of this file with the copied 
 content
 ![](/c-design/static/font-txt.png)
 
@@ -77,7 +77,8 @@ python3 read_google_font.py
 ![](/c-design/static/run-py-script.png)
 
 (This script will generate `FASTN.ftd` and `static` folder in 
-the `google-font-to-fastn` repository )
+the `google-font-to-fastn` repository)
+
 ![](/c-design/static/FASTN-and-static.png)
 
 - Open the `FASTN.ftd` file and copy the all `--fastn.font` 
