@@ -3,7 +3,7 @@
 
 -- ds.page: Page Title
 
--- ftd.image:
+-- ds.image:
 src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
 width: fill-container
 
@@ -21,7 +21,7 @@ Header title can be passed in the caption area.
 You can also add multiline body when using the header components.
 
 
--- ftd.image:
+-- ds.image:
 src: $assets.files.static.img.jpg
 width: fill-container
 

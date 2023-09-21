@@ -29,7 +29,7 @@ logo-width: 40
 ;; value for `src` property in `ftd.image`.
 
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-/-- ftd.image:
+/-- ds.image:
 src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
 width: fill-container
 ;; ================================= END =======================================
@@ -52,7 +52,7 @@ You can also add multiline body when using the header components.
 ;; observe the differences.
 
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-/-- ftd.image:
+/-- ds.image:
 src: $assets.files.static.img.jpg
 width: fill-container
 ;; ================================= END =======================================
