@@ -112,4 +112,4 @@ and deployment` section
 ![](/c-design/static/lato-output.png)
 
 - You can move to 
-[create typography](/c-design/02-create-typography.md)
+[create typography](/c-design/03-create-typography.md)
