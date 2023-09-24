@@ -1,6 +1,5 @@
 -- import: fastn
 
-
 -- fastn.package: hello
 
 ;; Use fastn serve --edition=2023

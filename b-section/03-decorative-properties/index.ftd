@@ -1,5 +1,6 @@
 -- ftd.text: Hello World
 role: $inherited.types.heading-large
+;; UNCOMMENT ONE-BY-ONE
 ;; padding-vertical.px: 10
 ;; padding-horizontal.px: 15
 ;; border-bottom-width.px: 7

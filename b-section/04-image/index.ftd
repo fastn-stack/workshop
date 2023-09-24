@@ -1,4 +1,5 @@
--- import: hello/assets
+;; UNCOMMENT THE BELOW CODE
+/-- import: hello/assets
 
 -- ftd.text: Mountain Winter
 role: $inherited.types.heading-large
@@ -10,7 +11,8 @@ border-color: $inherited.colors.cta-primary.border
 background.solid: $inherited.colors.cta-primary.base
 color: $inherited.colors.cta-primary.text
 
-
+;; ========================= REMOVE THE COMMENT BELOW ==========================
 ;; -- ftd.image:
 ;; src: $assets.files.static.img-1.jpg
 ;; width.fixed.percent: 40
+;; ================================= END =======================================
