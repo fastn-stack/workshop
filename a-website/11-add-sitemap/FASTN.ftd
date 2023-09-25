@@ -18,15 +18,15 @@
 ;; significantly improving the accessibility of pertinent information.
 
 ;; UNCOMMENT NEXT LINE
-/-- fastn.sitemap:
+-- fastn.sitemap:
 
 # Home: /
 
 ## Intro: /
 
 - My Index page: /
-- `a` page: /a/
+- `a` page: /more-pages/a/
 
-## Subsec B: /b/
+## Subsec B: /more-pages/b/
 
 # Other: /new-page/

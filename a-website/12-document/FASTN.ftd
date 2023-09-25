@@ -1,0 +1,30 @@
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.dependency: fastn-community.github.io/midnight-rush
+-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+-- fastn.dependency: fastn-community.github.io/lobster-typography
+
+-- fastn.auto-import: hello/ds
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+;; document feature helps to clean the URL. Notice the below URL is now /a/ 
+;; instead of /more-pages/a/
+- `a` page: /a/
+;; UNCOMMENT NEXT LINE
+document: /more-pages/a.ftd
+
+
+## Subsec B: /b/
+;; UNCOMMENT NEXT LINE
+document: /more-pages/b.ftd
+
+# Other: /new-page/

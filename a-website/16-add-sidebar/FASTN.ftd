@@ -1,0 +1,23 @@
+-- import: fastn
+
+-- fastn.package: hello
+
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.dependency: fastn-community.github.io/midnight-rush
+-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+-- fastn.dependency: fastn-community.github.io/lobster-typography
+
+-- fastn.auto-import: hello/ds
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+- `a` page: /more-pages/a/
+
+## Subsec B: /more-pages/b/
+
+# Other: /new-page/
