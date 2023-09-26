@@ -16,8 +16,6 @@ Audience: end users of fastn (nandhini persona)
 
 portfolio website
 
-12-document
-13-redirect
 14-SEO-meta
 15-banner
 16-sidebar
@@ -25,8 +23,8 @@ portfolio website
 
 ## Developers Workshops
 
-- [frontend: create a new theme](c-theme)
-- [frontend: create new design system](d-design)
+- [frontend: create new design system](c-design)
+- [frontend: create a new theme](d-theme)
 - [backend: create an http app](e-http)
 - [backend: create an SQL app](f-sql)
 
