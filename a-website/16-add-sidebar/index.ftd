@@ -3,8 +3,7 @@
 
 -- ds.page: Page Title
 
-;; COMMENT NEXT LINE
-;; Go to the [new page](/new-page/).
+Go to the [new page](/new-page/).
 
 -- ds.image:
 src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg

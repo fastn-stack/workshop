@@ -12,6 +12,11 @@ optional body details:
 -- doc-site.page: $page.title
 site-name: My Site
 site-logo: $assets.files.static.logo.svg
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+;; document-title: Portfolio website using fastn
+;; document-description: Learn creating website through hands-on workshop
+;; document-image: $assets.files.static.workshop-slide.png.light
+;; ================================= END =======================================
 logo-width: 40
 wrapper: $page.uis
 body: $page.details
