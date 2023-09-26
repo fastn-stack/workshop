@@ -16,8 +16,6 @@ Audience: end users of fastn (nandhini persona)
 
 portfolio website
 
-14-SEO-meta
-15-banner
 16-sidebar
 17-portfolio-website (we need only few sections for portfolio website)
 
