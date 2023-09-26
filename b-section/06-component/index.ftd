@@ -51,7 +51,6 @@ height.fixed.px: 250
 
 
 
-
 ;; UNCOMMENT THE BELOW COMPONENT
 /-- component show-gallery:
 
@@ -111,7 +110,6 @@ image: $assets.files.static.img-1.jpg
 Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
 Picture a landscape blanketed in pristine, glistening snow, where nature's icy
 embrace transforms the world into a breathtaking masterpiece.
-
 
 
 

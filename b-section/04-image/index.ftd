@@ -12,7 +12,7 @@ background.solid: $inherited.colors.cta-primary.base
 color: $inherited.colors.cta-primary.text
 
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-;; -- ftd.image:
+/-- ftd.image:
 ;; src: $assets.files.static.img-1.jpg
 ;; width.fixed.percent: 40
 ;; ================================= END =======================================

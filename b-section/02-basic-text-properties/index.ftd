@@ -1,5 +1,10 @@
 -- ftd.text: Hello World
-role: $inherited.types.heading-large
+;; There are two ways to give role to the text
+;; A -> Taking the role of inherited role
+;; B -> Defining the custom role and using it
+;; UNCOMMENT NEXT LINE (to give the text the inherited role)
+;; role: $inherited.types.heading-large
+;; COMMENT ABOVE LINE AND UNCOMMENT NEXT LINE (to give the text custom role)
 ;; role: $rtype
 
 

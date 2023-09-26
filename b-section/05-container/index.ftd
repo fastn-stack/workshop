@@ -1,14 +1,14 @@
 -- import: hello/assets
 
-;; -- ftd.row:
-;; width.fixed.percent: 80
-;; padding.px: 50
-;; spacing.fixed.px: 40
-;; background.solid: $inherited.colors.background.step-2
+/-- ftd.row:
+width.fixed.percent: 80
+padding.px: 50
+spacing.fixed.px: 40
+background.solid: $inherited.colors.background.step-2
 
-;; -- ftd.column:
-;; width.fixed.percent: 60
-;; spacing.fixed.px: 20
+/-- ftd.column:
+width.fixed.percent: 60
+spacing.fixed.px: 20
 
 -- ftd.text: Mountain Winter
 role: $inherited.types.heading-large
@@ -28,11 +28,11 @@ Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
 Picture a landscape blanketed in pristine, glistening snow, where nature's icy
 embrace transforms the world into a breathtaking masterpiece.
 
-;; -- end: ftd.column
+/-- end: ftd.column
 
 -- ftd.image:
 src: $assets.files.static.img-1.jpg
 width.fixed.percent: 40
 height.fixed.px: 250
 
-;; -- end: ftd.row
+/-- end: ftd.row
