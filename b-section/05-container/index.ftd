@@ -1,11 +1,13 @@
 -- import: hello/assets
 
+;; UNCOMMENT THE BELOW CODE
 /-- ftd.row:
 width.fixed.percent: 80
 padding.px: 50
 spacing.fixed.px: 40
 background.solid: $inherited.colors.background.step-2
 
+;; UNCOMMENT THE BELOW CODE
 /-- ftd.column:
 width.fixed.percent: 60
 spacing.fixed.px: 20
@@ -28,6 +30,7 @@ Nestled amidst the serene beauty of the mountains, a winter wonderland awaits.
 Picture a landscape blanketed in pristine, glistening snow, where nature's icy
 embrace transforms the world into a breathtaking masterpiece.
 
+;; UNCOMMENT THE BELOW CODE
 /-- end: ftd.column
 
 -- ftd.image:
@@ -35,4 +38,5 @@ src: $assets.files.static.img-1.jpg
 width.fixed.percent: 40
 height.fixed.px: 250
 
+;; UNCOMMENT THE BELOW CODE
 /-- end: ftd.row
