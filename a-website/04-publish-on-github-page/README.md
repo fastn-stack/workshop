@@ -2,7 +2,7 @@
 
 - Sign-up or sign-in on GitHub
 - [Create a repository](https://github.com/new?template_name=learning-template&template_owner=fastn-community)
-- Open an edit `FASTN.ftd` and paste your code
+- Open and edit `FASTN.ftd` and paste your code
 - Commit changes
 - Open and edit `index.ftd` and paste your code
 - Commit changes
