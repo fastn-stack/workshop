@@ -7,7 +7,7 @@
 ;; components
 
 
-;; Now use the component `chalice` of the quote module with some values:
+;; Now use the component `background-image` of the quote module with some values:
 
 ;; ======================== REMOVE THE COMMENT BELOW ==========================
 /-- quote.background-image: Lucius Annaeus Seneca
