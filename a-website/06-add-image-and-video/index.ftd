@@ -2,7 +2,7 @@
 ;; `fastn` comes with a special module `assets`. With `assets` you can access 
 ;; the file system of the package.
 ;; UNCOMMENT NEXT LINE to import this module.
-;; -- import: hello/assets
+/-- import: hello/assets
 
 
 
