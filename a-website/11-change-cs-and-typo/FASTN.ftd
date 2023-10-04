@@ -10,8 +10,22 @@
 ;; typography: fastn-community.github.io/lobster-typography
 
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-/-- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+/-- fastn.dependency: fastn-community.github.io/misty-gray-cs
 /-- fastn.dependency: fastn-community.github.io/lobster-typography
 ;; ================================= END =======================================
 
 -- fastn.auto-import: hello/ds
+
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+- `a` page: /more-pages/a/
+
+## Subsec B: /more-pages/b/
+
+# Other: /new-page/

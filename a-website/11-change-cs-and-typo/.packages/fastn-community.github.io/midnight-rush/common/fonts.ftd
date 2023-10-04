@@ -1,0 +1,29 @@
+-- import:  fastn-community.github.io/opensans-font/assets as opensans-assets
+
+
+-- ftd.type copy-regular-mobile:
+line-height.px: 24
+size.px: 16
+letter-spacing.px: 0
+weight: 400
+font-family: $opensans-assets.fonts.Open-Sans
+
+-- ftd.type copy-regular-desktop:
+line-height.px: 30
+size.px: 18
+letter-spacing.px: 0
+font-family: $opensans-assets.fonts.Open-Sans
+weight: 400
+
+-- ftd.responsive-type copy-regular:
+desktop: $copy-regular-desktop
+mobile: $copy-regular-mobile
+
+
+
+
+
+
+-- ftd.color white:
+light: #ffffff
+dark: #ffffff

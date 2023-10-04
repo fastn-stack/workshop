@@ -1,0 +1,440 @@
+-- import: fastn/processors as pr
+-- import: fastn-community.github.io/midnight-rush/blog-authors/patrica as author
+
+
+-- boolean show-footer: true
+
+-- integer logo-width: 180
+
+-- integer logo-height: 44
+
+-- string site-name: SET 1 DS
+
+-- string site-url: index.html
+
+-- ftd.image-src site-logo: $assets.files.static.ipsum-logo.svg
+
+-- integer max-width: 1320
+
+-- pr.sitemap-data sitemap:
+$processor$: pr.sitemap
+
+-- pr.sitemap-data footer-toc:
+$processor$: pr.full-sitemap
+
+
+-- pr.toc-item list footer-list:
+$processor$: pr.toc
+
+-- fastn.app-ui apps:
+$processor$: pr.fastn-apps
+
+
+
+
+
+-- record social-media:
+ftd.image-src src:
+string link: /
+
+
+
+
+
+-- social-media list share:
+
+
+
+
+
+
+-- social-media list share-links:
+
+-- social-media:
+link: /
+src: $assets.files.static.meta.svg
+
+-- social-media: 
+link: /
+src: $assets.files.static.figma.svg
+
+-- social-media:
+link: /
+src: $assets.files.static.google.svg
+
+-- social-media: 
+link: /
+src: $assets.files.static.ball.svg
+
+-- end: share-links
+
+
+
+
+
+-- social-media list social-links:
+
+-- social-media:
+link: /
+src: $assets.files.static.meta.svg
+
+-- social-media: 
+link: /
+src: $assets.files.static.figma.svg
+
+-- social-media:
+link: /
+src: $assets.files.static.google.svg
+
+-- social-media: 
+link: /
+src: $assets.files.static.tweak.svg
+
+-- social-media: 
+link: /
+src: $assets.files.static.ball.svg
+
+-- end: social-links
+
+
+
+
+
+-- ftd.color blur:
+light: #12080880
+dark: #12080880
+
+
+
+
+
+
+-- pr.toc-item list footer-links:
+$processor$: pr.toc
+
+- Heading1: index.html
+  - Footer link 1: /
+  - Footer link 2: /
+  - Footer link 3: /
+  - Footer link 4: /
+- Heading2: index.html
+  - Footer link 1: /
+  - Footer link 2: /
+  - Footer link 3: /
+  - Footer link 4: /
+- Heading3: index.html
+  - Footer link 1: /
+  - Footer link 2: /
+  - Footer link 3: /
+  - Footer link 4: /
+- Heading4: index.html
+  - Footer link 1: /
+  - Footer link 2: /
+  - Footer link 3: /
+  - Footer link 4: /
+
+
+
+
+
+
+-- record tags-list:
+caption title:
+string tag-link:
+
+
+
+
+
+-- tags-list list topic:
+
+-- tags-list: Design Inspiration
+tag-link: blog/
+
+-- end: topic
+
+
+
+
+
+-- tags-list list tags:
+
+-- tags-list: Programming
+tag-link: blog/
+
+-- tags-list: Data Science
+tag-link: blog/
+
+-- tags-list: Technology
+tag-link: blog/
+
+-- tags-list: Writing
+tag-link: blog/
+
+-- tags-list: AI/ML
+tag-link: blog/
+
+-- tags-list: UI/UX
+tag-link: blog/
+
+-- end: tags
+
+
+
+
+
+
+-- record author-meta:
+caption title:
+string profile:
+string company:
+optional string bio-url:
+optional ftd.image-src image:
+body body:
+
+
+
+
+
+-- record post-meta:
+caption title:
+string published-on:
+optional ftd.image-src post-image:
+optional body body:
+string post-url:
+author-meta author:
+social-media list social-list:
+tags-list list tags:
+
+
+
+
+
+
+
+-- record faq:
+caption title: 
+optional body body:
+
+-- faq list list-of-faqs:
+
+-- faq: Are there really zero fees?
+
+At Fastn, we believe businesses shouldn’t have to wait or pay to access money
+they’ve already earned. That’s why it doesn’t cost a penny to create an account
+and there are zero transaction fees when you use the Fastn platform to pay and
+get paid. If you decide to leverage some of our more premium payment features
+(like Fastn Flow, which lets you get paid before your client pays you) there
+may be a small service fee—
+
+-- faq: Is Fastn secure?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- faq: Does Fastn replace my accounting software?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- faq: Is Fastn a bank?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- faq: Are the payments really instant?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- faq: Do my clients and vendors have to sign up for Fastn too?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- faq: How does Fastn make money?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie ante
+in luctus rutrum.
+
+-- end: list-of-faqs
+
+
+
+
+
+
+
+
+
+
+-- record feature:
+caption title: 
+ftd.image-src icon:
+body body:
+optional string link:
+
+-- feature list list-of-features:
+
+-- feature: Strategy and Consultancy
+icon: $assets.files.static.landing.strategy.svg
+link: landing/
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- feature: Strategy and Consultancy
+icon: $assets.files.static.landing.strategy.svg
+link: landing/
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- feature: Strategy and Consultancy
+icon: $assets.files.static.landing.strategy.svg
+link: landing/
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- feature: Strategy and Consultancy
+icon: $assets.files.static.landing.strategy.svg
+link: landing/
+
+We are an award-winning strategic design company that provides consultancy
+services and help you create outstanding digital products.
+
+-- end: list-of-features
+
+
+
+
+
+
+
+
+
+
+-- record testimonial:
+optional caption title:
+string user: 
+optional string designation:
+optional ftd.image-src avatar:
+optional body body:
+optional integer index:
+
+-- testimonial list list-of-testimonials:
+
+-- testimonial: Fastnis easier, more intuitive, and faster than what’s currently out there.
+user: Jonathan S.
+designation: Co Founder & COO1
+index: 1
+
+
+-- testimonial: The purpose of our lives is to be happy.
+user: Dalai Lama
+index: 2
+
+-- testimonial: Get busy living or get busy dying.
+user: Stephen King
+index: 3
+
+-- end: list-of-testimonials
+
+
+
+
+
+
+
+
+
+
+
+-- record info-card:
+caption title:
+body body:
+boolean is-first: false
+boolean is-last: false
+
+-- info-card list list-of-info-cards:
+
+-- info-card: +87%
+is-first: true
+
+increased attendee engagement of Bitwise
+
+-- info-card: 1.7M
+
+pipeline generated at Everbridge
+
+-- info-card: 58%
+is-last: true
+
+attendee conversion rate at Interfolio
+
+-- end: list-of-info-cards
+
+
+
+
+
+
+
+
+
+
+-- record logos:
+ftd.image-src logo:
+string link:
+
+-- logos list list-of-logos:
+
+-- logos: 
+logo: $assets.files.static.landing.logo-1.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.static.landing.logo-2.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.static.landing.logo-3.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.static.landing.logo-4.svg
+link: landing/
+
+-- logos: 
+logo: $assets.files.static.landing.logo-5.svg
+link: landing/
+
+-- end: list-of-logos
+
+
+
+
+
+
+
+
+
+
+-- record testimonial-nav:
+integer index: 1
+boolean active: false
+
+-- testimonial-nav list navs:
+
+-- testimonial-nav:
+active: true
+index: 1
+
+-- testimonial-nav:
+index: 2
+
+-- testimonial-nav:
+index: 3
+
+-- end: navs
