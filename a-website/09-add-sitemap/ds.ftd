@@ -1,8 +1,6 @@
 -- import: hello/assets
--- import: fastn-community.github.io/midnight-rush as doc-site
+-- import: fastn-community.github.io/doc-site
 export: markdown,h0,h1,h2,h3,image,youtube
--- import: fastn-community.github.io/saturated-sunset-cs as cs
--- import: fastn-community.github.io/lobster-typography as typo
 
 -- component page:
 optional caption title:
@@ -15,8 +13,6 @@ site-logo: $assets.files.static.logo.svg
 logo-width: 40
 wrapper: $page.uis
 body: $page.details
-colors: $cs.main
-types: $typo.types
 
 -- end: doc-site.page
 

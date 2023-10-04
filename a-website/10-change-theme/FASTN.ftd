@@ -12,3 +12,17 @@
 /-- fastn.dependency: fastn-community.github.io/midnight-rush
 
 -- fastn.auto-import: hello/ds
+
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Intro: /
+
+- My Index page: /
+- `a` page: /more-pages/a/
+
+## Subsec B: /more-pages/b/
+
+# Other: /new-page/
