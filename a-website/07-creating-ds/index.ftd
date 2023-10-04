@@ -13,7 +13,7 @@ logo-width: 40
 
 ;; Instead now we just need to use `-- ds.page`
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
-;; -- ds.page: Page Title
+;; -- ds.page: Page Title from custom `page component`
 ;; ================================= END =======================================
 
 
