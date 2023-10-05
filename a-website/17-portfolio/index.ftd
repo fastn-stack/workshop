@@ -1,10 +1,9 @@
 -- import: fastn-community.github.io/bling/quote
 -- import: hello/assets
 
--- ds.page: Page Title
+-- ds.page: `fastn` Workshop
 
-;; COMMENT NEXT LINE
-;; Go to the [new page](/new-page/).
+Go to the [new page](/new-page/).
 
 -- ds.image:
 src: https://upload.wikimedia.org/wikipedia/commons/c/ca/A_Beautiful_Scenery.jpg
@@ -30,7 +29,7 @@ width: fill-container
 
 -- ds.h2: This is `h2` header
 
-This is second level of header. Similary `doc-site` has h3.
+This is second level of header. Similarly `doc-site` has h3.
 
 
 -- ds.youtube:

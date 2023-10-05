@@ -1,22 +1,54 @@
 -- import: hello/assets
 -- import: fastn-community.github.io/midnight-rush as doc-site
 export: markdown,h0,h1,h2,h3,image,youtube
--- import: fastn-community.github.io/saturated-sunset-cs as cs
+-- import: fastn-community.github.io/misty-gray-cs as cs
 -- import: fastn-community.github.io/lobster-typography as typo
+-- import: fastn-community.github.io/banner
 
 -- component page:
 optional caption title:
 children uis:
 optional body details:
+boolean show-banner: true
+boolean full-width: true
+boolean sidebar: true
+
+-- ftd.ui list page.banner:
+
+-- banner.cta-banner:
+cta-text: Click me
+cta-link: https://fastn.com
+bgcolor: $inherited.colors.cta-primary.base
+
+This is banner. 
+
+-- end: page.banner
+
+-- ftd.ui list page.right-sidebar:
+
+-- doc-site.h2: Hello!
+
+I am right sidebar :)
+
+-- end: page.right-sidebar
+
 
 -- doc-site.page: $page.title
 site-name: My Site
 site-logo: $assets.files.static.logo.svg
+document-title: Portfolio website using fastn
+document-description: Learn creating website through hands-on workshop
+document-image: $assets.files.static.workshop-slide.png.light
 logo-width: 40
 wrapper: $page.uis
 body: $page.details
 colors: $cs.main
 types: $typo.types
+full-width: $page.full-width
+show-banner: $page.show-banner
+banner: $page.banner
+sidebar: $page.sidebar
+right-sidebar: $page.right-sidebar
 
 -- end: doc-site.page
 

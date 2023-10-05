@@ -60,7 +60,7 @@ width: fill-container
 
 -- ds.h2: This is `h2` header
 
-This is second level of header. Similary `doc-site` has h3.
+This is second level of header. Similarly `doc-site` has h3.
 
 ;; Embed youtube video by getting the `vid` of the video
 ;; Example, the URL is: `https://www.youtube.com/watch?v=_yM7y_Suaio`,

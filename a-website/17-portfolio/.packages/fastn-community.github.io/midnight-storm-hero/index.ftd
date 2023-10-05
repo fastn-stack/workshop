@@ -1,0 +1,34 @@
+-- import: fastn-community.github.io/hero-doc/docs
+-- import: fastn-community.github.io/midnight-storm-hero
+-- import: fastn-community.github.io/midnight-storm-hero/components/stack
+export: hero-stack
+
+-- import: fastn-community.github.io/midnight-storm-hero/components/heading-left
+export: hero-heading-left
+
+-- import: fastn-community.github.io/midnight-storm-hero/components/heading-center
+export: hero-heading-center
+
+-- import: fastn-community.github.io/midnight-storm-hero/components/heading-right
+export: hero-heading-right
+
+-- import: fastn-community.github.io/midnight-storm-hero/components/left-stack
+export: hero-left-stack
+
+-- import: fastn-community.github.io/midnight-storm-hero/components/without-image
+export: hero-without-image
+
+
+
+
+
+
+;; ---------------- DOCUMENTATION FOR YOUR HEADER COMPONENTS ----------------------
+;; This renders the default documentation
+
+-- docs.home:
+package-name: midnight-storm-hero
+package-full-name: fastn-community.github.io/midnight-storm-hero
+github: https://github.com/fastn-community/midnight-storm-hero
+category: fastn-community.github.io/midnight-storm-hero
+license-url: https://github.com/fastn-community/midnight-storm-hero/blob/main/LICENSE
