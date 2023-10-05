@@ -16,7 +16,6 @@ Audience: end users of fastn (nandhini persona)
 
 portfolio website
 
-16-sidebar
 17-portfolio-website (we need only few sections for portfolio website)
 
 ## Developers Workshops
