@@ -160,6 +160,7 @@ og-image: $page.document-image
 
 -- ftd.column:
 width: fill-container
+height: fill-container
 background.solid: $inherited.colors.background.base
 
 -- ftd.column:
@@ -373,6 +374,7 @@ $doc-page-desktop.body
 -- ftd.column:
 width: fill-container
 children: $doc-page-desktop.wrapper
+spacing.fixed.px: 15
 
 -- end: ftd.column
 

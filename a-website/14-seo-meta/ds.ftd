@@ -1,7 +1,7 @@
 -- import: hello/assets
 -- import: fastn-community.github.io/midnight-rush as doc-site
 export: markdown,h0,h1,h2,h3,image,youtube
--- import: fastn-community.github.io/saturated-sunset-cs as cs
+-- import: fastn-community.github.io/misty-gray-cs as cs
 -- import: fastn-community.github.io/lobster-typography as typo
 
 -- component page:

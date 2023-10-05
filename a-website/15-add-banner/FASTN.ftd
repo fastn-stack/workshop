@@ -4,7 +4,7 @@
 
 -- fastn.dependency: fastn-community.github.io/bling
 -- fastn.dependency: fastn-community.github.io/midnight-rush
--- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+-- fastn.dependency: fastn-community.github.io/misty-gray-cs
 -- fastn.dependency: fastn-community.github.io/lobster-typography
 ;; UNCOMMENT NEXT LINE
 /-- fastn.dependency: fastn-community.github.io/banner

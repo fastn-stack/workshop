@@ -4,7 +4,7 @@
 
 -- fastn.dependency: fastn-community.github.io/bling
 -- fastn.dependency: fastn-community.github.io/midnight-rush
--- fastn.dependency: fastn-community.github.io/saturated-sunset-cs
+-- fastn.dependency: fastn-community.github.io/misty-gray-cs
 -- fastn.dependency: fastn-community.github.io/lobster-typography
 
 -- fastn.auto-import: hello/ds
@@ -18,13 +18,17 @@
 - My Index page: /
 ;; document feature helps to clean the URL. Notice the below URL is now /a/ 
 ;; instead of /more-pages/a/
-- `a` page: /a/
-;; UNCOMMENT NEXT LINE
-document: /more-pages/a.ftd
+;; COMMENT NEXT LINE
+- `a` page: /more-pages/a/
+;; UNCOMMENT NEXT TWO LINES
+;; - `a` page: /a/
+;; document: /more-pages/a.ftd
 
+;; COMMENT NEXT LINE
+## Subsec B: /more-pages/b/
 
-## Subsec B: /b/
-;; UNCOMMENT NEXT LINE
-document: /more-pages/b.ftd
+;; UNCOMMENT NEXT TWO LINES
+;; ## Subsec B: /b/
+;; document: /more-pages/b.ftd
 
 # Other: /new-page/

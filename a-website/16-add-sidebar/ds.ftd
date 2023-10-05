@@ -1,7 +1,7 @@
 -- import: hello/assets
 -- import: fastn-community.github.io/midnight-rush as doc-site
 export: markdown,h0,h1,h2,h3,image,youtube
--- import: fastn-community.github.io/saturated-sunset-cs as cs
+-- import: fastn-community.github.io/misty-gray-cs as cs
 -- import: fastn-community.github.io/lobster-typography as typo
 -- import: fastn-community.github.io/banner
 
@@ -11,6 +11,8 @@ children uis:
 optional body details:
 boolean show-banner: true
 boolean full-width: true
+;; UNCOMMENT NEXT LINE
+boolean sidebar: true
 
 -- ftd.ui list page.banner:
 
@@ -23,6 +25,20 @@ This is banner.
 
 -- end: page.banner
 
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+-- ftd.ui list page.right-sidebar:
+
+-- doc-site.h2: Hello!
+
+I am right sidebar :)
+
+/-- ftd.rive:
+id: panda
+src: $assets.files.static.panda.riv
+width.fixed.px: 300
+
+-- end: page.right-sidebar
+;; ================================= END =======================================
 
 -- doc-site.page: $page.title
 site-name: My Site
@@ -38,6 +54,10 @@ types: $typo.types
 full-width: $page.full-width
 show-banner: $page.show-banner
 banner: $page.banner
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+sidebar: $page.sidebar
+right-sidebar: $page.right-sidebar
+;; ================================= END =======================================
 
 -- end: doc-site.page
 
