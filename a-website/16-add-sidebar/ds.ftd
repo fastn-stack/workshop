@@ -28,16 +28,16 @@ This is banner.
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
 /-- ftd.ui list page.right-sidebar:
 
--- doc-site.h2: Hello!
+/-- doc-site.h2: Hello!
 
 I am right sidebar :)
 
--- ftd.rive:
+/-- ftd.rive:
 id: panda
 src: $assets.files.static.panda.riv
 width.fixed.px: 300
 
--- end: page.right-sidebar
+/-- end: page.right-sidebar
 ;; ================================= END =======================================
 
 -- doc-site.page: $page.title

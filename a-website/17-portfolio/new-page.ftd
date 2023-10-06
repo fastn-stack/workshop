@@ -15,7 +15,6 @@ an `index.ftd` file within a folder is derived from the folder's name. For
 instance, if an `index.ftd` file exists at the path `/a/index.ftd`, its default
 URL would be automatically generated as `/a/`.
 
-;; UNCOMMENT NEXT LINE
-;; Go back to the [index page](/).
+Go back to the [index page](/).
 
 -- end: ds.page

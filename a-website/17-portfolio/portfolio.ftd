@@ -1,8 +1,11 @@
--- import: hero
 -- import: hello/assets
+;; UNCOMMENT NEXT LINE
+-- import: hero
 
 -- ds.page:
-sidebar: false
+;; In this page we do not want sidebar
+;; UNCOMMENT NEXT LINE
+;; sidebar: false
 
 
 ;; Add this where you want to show the component
