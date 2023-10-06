@@ -30,7 +30,7 @@ width: fill-container
 
 -- ds.h2: This is `h2` header
 
-This is second level of header. Similary `doc-site` has h3.
+This is second level of header. Similarly `doc-site` has h3.
 
 
 -- ds.youtube:

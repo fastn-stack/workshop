@@ -1,0 +1,100 @@
+-- import: fastn
+
+-- fastn.package: fastn-community.github.io/midnight-rush
+favicon: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/favicon.svg
+
+-- fastn.dependency: fastn-community.github.io/midnight-rush-typography
+-- fastn.dependency: fastn-community.github.io/midnight-rush-cs 
+-- fastn.dependency: fastn-community.github.io/banner
+-- fastn.dependency: fastn-community.github.io/opensans-font 
+-- fastn.dependency: fastn-community.github.io/dark-mode-switcher
+-- fastn.dependency: fastn-community.github.io/code-block
+-- fastn.dependency: fastn-community.github.io/typography
+
+-- fastn.dependency: fastn-community.github.io/bling
+-- fastn.auto-import: fastn-community.github.io/code-block as cb
+
+-- fastn.auto-import: fastn-community.github.io/typography as tf
+
+
+-- fastn.auto-import: fastn-community.github.io/midnight-rush/assets
+-- fastn.auto-import: fastn-community.github.io/midnight-rush/common
+
+-- fastn.auto-import: fastn-community.github.io/midnight-rush/FASTN/ds
+
+-- fastn.sitemap:
+
+# Home: /index.html
+
+- Overview: index.html
+- How to use: /how-to/
+- Getting Started: /getting-started/
+- Configuring your site: /domain-setup/
+- Adding Favicon: /favicon/
+- Adding Logo & Sitename: /logo/
+- Changing Color Scheme: /cs/
+- Changing Typography: /types/
+- Adding Banner: /banner/
+- Components: /components/
+  - author-bio: /components/author-bio/
+  skip: true
+  - code: /components/code/
+  skip: true
+  - compact-text: /components/compact-text/
+  skip: true
+  - featured-post: /components/featured-post/
+  skip: true
+  - h0, h1, h2, h3: /components/headers/
+  skip: true
+  - iframe: /components/iframe/
+  skip: true
+  - image: /components/image/
+  skip: true
+  - image-first: /components/image-first/
+  skip: true
+  - image-in-between: /components/image-in-between/
+  skip: true
+  - link & link-group: /components/link/
+  skip: true
+  - markdown: /components/markdown/
+  skip: true
+  - not-found-1: /components/404-1/
+  skip: true
+  - not-found-2: /components/404-2/
+  skip: true
+  - output: /components/output/
+  skip: true
+  - page: /components/page/
+  skip: true
+  - post: /components/post/
+  skip: true
+  - posts: /components/posts/
+  skip: true
+  - rendered: /components/rendered/
+  skip: true
+  - tip: /components/tip/
+  skip: true
+  - without-image: /components/without-image/
+  skip: true
+  - youtube: /components/youtube/
+  skip: true
+
+- Markdown Primer: /markdown/
+- Understanding Sitemap: /sitemap/
+- Adding Right Sidebar: /right-sidebar/
+- Updating Footer: /footer/
+- SEO: /seo/
+- Blog: /blog/
+  - Post List: /post-list/
+  - Sample Post: /blog-articles/sample-post/
+  - Sample Author Bio: /blog-authors/patrica/
+
+- Contribute: /contribute/
+
+# Blog: /blog/
+
+## Sample Post: /blog-articles/sample-post/
+
+# Landing: /landing/
+# Pricing: /pricing/
+# Our Team: /team/

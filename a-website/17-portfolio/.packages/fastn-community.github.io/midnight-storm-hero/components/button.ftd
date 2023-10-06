@@ -1,0 +1,91 @@
+-- component primary-button:
+caption text:
+string link:
+
+
+-- button: $primary-button.text
+color: $inherited.colors.background.base
+background.solid: $inherited.colors.cta-primary.base
+on-hover-background.solid: $inherited.colors.cta-primary.hover
+border-color: $inherited.colors.cta-primary.border
+link: $primary-button.link
+on-hover-text: $inherited.colors.background.base
+
+-- end: primary-button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component secondary-button:
+caption text:
+string link:
+
+-- button: $secondary-button.text
+color: $inherited.colors.shadow
+on-hover-background.solid: $inherited.colors.cta-primary.hover
+border-color: $inherited.colors.shadow
+link: $secondary-button.link
+on-hover-text: $inherited.colors.background.base
+
+-- end: secondary-button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component button:
+optional caption text:
+optional string link:
+optional ftd.background background:
+ftd.background on-hover-background:
+ftd.color color:
+ftd.color on-hover-text:
+ftd.color border-color:
+private boolean $hover: false
+
+-- ftd.row:
+if: { button.text != NULL }
+spacing.fixed.px: 16
+padding-horizontal.px: 28
+padding-vertical.px: 10
+border-color: $button.border-color
+border-width.px: 1
+align-content: center
+background if { button.background }: $button.background
+background if { button.hover }: $button.on-hover-background
+color: $button.color
+color if { button.hover }: $button.on-hover-text
+link if { button.link != NULL }: $button.link
+role: $inherited.types.button-large
+$on-mouse-enter$: $ftd.set-bool($a = $button.hover, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $button.hover, v = false)
+
+-- ftd.text: $button.text
+white-space: nowrap
+
+-- end: ftd.row
+
+-- end: button

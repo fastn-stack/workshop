@@ -1,0 +1,173 @@
+-- import: fastn-community.github.io/midnight-rush-hero/components/button
+
+
+-- component hero-stack:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- stack-helper-desktop: $hero-stack.title
+subtitle: $hero-stack.subtitle
+image: $hero-stack.image
+cta-primary: $hero-stack.cta-primary-text
+cta-primary-url: $hero-stack.cta-primary-url
+cta-secondary: $hero-stack.cta-secondary-text
+cta-secondary-url: $hero-stack.cta-secondary-url
+background: $hero-stack.background
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- stack-helper-mobile: $hero-stack.title
+subtitle: $hero-stack.subtitle
+image: $hero-stack.image
+cta-primary: $hero-stack.cta-primary-text
+cta-primary-url: $hero-stack.cta-primary-url
+cta-secondary: $hero-stack.cta-secondary-text
+cta-secondary-url: $hero-stack.cta-secondary-url
+background: $hero-stack.background
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: hero-stack
+
+
+
+
+
+
+
+
+
+
+-- component stack-helper-desktop:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+optional string cta-primary:
+optional string cta-primary-url:
+optional string cta-secondary:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+align-content: center
+width: fill-container
+spacing.fixed.px: 32
+background.solid: $inherited.colors.background.step-1
+background if { stack-helper-desktop.background != NULL }: $stack-helper-desktop.background
+border-radius.px: 20
+padding.px: 50
+
+-- ftd.text: $stack-helper-desktop.title
+role: $inherited.types.heading-large
+color: $inherited.colors.text-strong
+text-align: center
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+text-align: center
+width.fixed.percent: 70
+
+$stack-helper-desktop.subtitle
+
+
+-- ftd.row:
+align-self: center
+spacing.fixed.px: 16
+
+-- button.primary-button: $stack-helper-desktop.cta-primary
+link: $stack-helper-desktop.cta-primary-url
+
+-- button.secondary-button: $stack-helper-desktop.cta-secondary
+link: $stack-helper-desktop.cta-secondary-url
+
+-- end: ftd.row
+
+-- ftd.image:
+src: $stack-helper-desktop.image
+width: fill-container
+
+-- end: ftd.column
+
+-- end: stack-helper-desktop
+
+
+
+
+
+
+
+
+
+
+-- component stack-helper-mobile:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+optional string cta-primary:
+optional string cta-primary-url:
+optional string cta-secondary:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+align-content: center
+width: fill-container
+spacing.fixed.px: 45
+background.solid: $inherited.colors.background.step-1
+background if { stack-helper-mobile.background != NULL }: $stack-helper-mobile.background
+border-radius.px: 20
+padding.px: 24
+
+-- ftd.column:
+spacing.fixed.px: 24
+width.fixed.percent : 70
+
+-- ftd.text: $stack-helper-mobile.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+text-align: center
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+text-align: center
+
+$stack-helper-mobile.subtitle
+
+-- end: ftd.column
+
+-- ftd.row:
+align-self: center
+spacing.fixed.px: 16
+
+-- button.primary-button: $stack-helper-mobile.cta-primary
+link: $stack-helper-mobile.cta-primary-url
+
+-- button.secondary-button: $stack-helper-mobile.cta-secondary
+link: $stack-helper-mobile.cta-secondary-url
+
+-- end: ftd.row
+
+-- ftd.image:
+src: $stack-helper-mobile.image
+width: fill-container
+
+-- end: ftd.column
+
+-- end: stack-helper-mobile

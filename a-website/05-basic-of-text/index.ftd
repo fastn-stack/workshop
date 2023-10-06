@@ -23,7 +23,7 @@ You can also add multiline body when using the header components.
 ;; ========================= REMOVE THE COMMENT BELOW ==========================
 /-- ds.h2: This is `h2` header
 
-This is second level of header. Similary `doc-site` has h3.
+This is second level of header. Similarly `doc-site` has h3.
 ;; ================================= END =======================================
 
 

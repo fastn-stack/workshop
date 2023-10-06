@@ -1,0 +1,181 @@
+-- import: fastn-community.github.io/midnight-rush-hero/components/button
+
+-- component hero-left-stack:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+string id: left-stack-helper
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+id: $hero-left-stack.id
+classes: section
+
+
+-- ftd.desktop:
+
+-- left-stack-helper-desktop: $hero-left-stack.title
+subtitle: $hero-left-stack.subtitle
+image: $hero-left-stack.image
+cta-primary: $hero-left-stack.cta-primary-text
+cta-primary-url: $hero-left-stack.cta-primary-url
+cta-secondary: $hero-left-stack.cta-secondary-text
+cta-secondary-url: $hero-left-stack.cta-secondary-url
+background: $hero-left-stack.background
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- left-stack-helper-mobile: $hero-left-stack.title
+subtitle: $hero-left-stack.subtitle
+image: $hero-left-stack.image
+cta-primary: $hero-left-stack.cta-primary-text
+cta-primary-url: $hero-left-stack.cta-primary-url
+cta-secondary: $hero-left-stack.cta-secondary-text
+cta-secondary-url: $hero-left-stack.cta-secondary-url
+background: $hero-left-stack.background
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: hero-left-stack
+
+
+
+
+
+
+
+
+
+
+-- component left-stack-helper-desktop:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+optional string cta-primary:
+optional string cta-primary-url:
+optional string cta-secondary:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+align-content: left
+width: fill-container
+spacing.fixed.px: 45
+background.solid: $inherited.colors.background.step-1
+background if { left-stack-helper-desktop.background != NULL }: $left-stack-helper-desktop.background
+border-radius.px: 20
+padding.px: 50
+
+-- ftd.column:
+spacing.fixed.px: 24
+width.fixed.percent: 70
+
+-- ftd.text: $left-stack-helper-desktop.title
+role: $inherited.types.heading-large
+color: $inherited.colors.text-strong
+text-align: center
+
+-- ftd.text:
+if: { left-stack-helper-desktop.subtitle != NULL }
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$left-stack-helper-desktop.subtitle
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $left-stack-helper-desktop.cta-primary
+link: $left-stack-helper-desktop.cta-primary-url
+
+-- button.secondary-button: $left-stack-helper-desktop.cta-secondary
+link: $left-stack-helper-desktop.cta-secondary-url
+
+-- end: ftd.row
+
+-- ftd.image:
+src: $left-stack-helper-desktop.image
+width: fill-container
+
+-- end: ftd.column
+
+-- end: left-stack-helper-desktop
+
+
+
+
+
+
+
+
+
+
+-- component left-stack-helper-mobile:
+caption title:
+optional body subtitle:
+ftd.image-src image:
+optional string cta-primary:
+optional string cta-primary-url:
+optional string cta-secondary:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+align-content: left
+width: fill-container
+spacing.fixed.px: 45
+background.solid: $inherited.colors.background.step-1
+background if { left-stack-helper-mobile.background != NULL }: $left-stack-helper-mobile.background
+border-radius.px: 20
+padding.px: 24
+
+
+-- ftd.column:
+spacing.fixed.px: 24
+width.fixed.percent : 70
+
+-- ftd.text: $left-stack-helper-mobile.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+if: { left-stack-helper-mobile.subtitle != NULL }
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$left-stack-helper-mobile.subtitle
+
+-- end: ftd.column
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $left-stack-helper-mobile.cta-primary
+link: $left-stack-helper-mobile.cta-primary-url
+
+-- button.secondary-button: $left-stack-helper-mobile.cta-secondary
+link: $left-stack-helper-mobile.cta-secondary-url
+
+
+-- end: ftd.row
+
+-- ftd.image:
+src: $left-stack-helper-mobile.image
+width: fill-container
+
+-- end: ftd.column
+
+-- end: left-stack-helper-mobile

@@ -1,0 +1,174 @@
+-- import: fastn-community.github.io/midnight-rush-hero/components/button
+
+-- import: fastn-community.github.io/midnight-rush-hero/components/button
+
+
+-- component hero-heading-center:
+caption title:
+ftd.image-src image:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+optional body subtitle:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- heading-center-helper-desktop: $hero-heading-center.title
+image: $hero-heading-center.image
+cta-primary-text: $hero-heading-center.cta-primary-text
+cta-primary-url: $hero-heading-center.cta-primary-url
+cta-secondary-text: $hero-heading-center.cta-secondary-text
+cta-secondary-url: $hero-heading-center.cta-secondary-url
+subtitle: $hero-heading-center.subtitle
+background: $hero-heading-center.background
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- heading-center-helper-mobile: $hero-heading-center.title
+image: $hero-heading-center.image
+cta-primary-text: $hero-heading-center.cta-primary-text
+cta-primary-url: $hero-heading-center.cta-primary-url
+cta-secondary-text: $hero-heading-center.cta-secondary-text
+cta-secondary-url: $hero-heading-center.cta-secondary-url
+subtitle: $hero-heading-center.subtitle
+background: $hero-heading-center.background
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: hero-heading-center
+
+
+
+
+
+
+
+
+-- component heading-center-helper-desktop:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+ftd.image-src image:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding.px: 50
+background.solid: $inherited.colors.background.step-1
+background if { heading-center-helper-desktop.background != NULL }: $heading-center-helper-desktop.background
+spacing.fixed.px: 30
+role: $inherited.types.copy-regular
+border-radius.px: 20
+
+-- ftd.text: $heading-center-helper-desktop.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-large
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+align-content: center
+
+-- ftd.column:
+width.fixed.percent: 55
+spacing.fixed.px: 20
+
+-- ftd.text: $heading-center-helper-desktop.subtitle
+if: { heading-center-helper-desktop.subtitle != NULL }
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $heading-center-helper-desktop.cta-primary-text
+link: $heading-center-helper-desktop.cta-primary-url
+
+-- button.secondary-button: $heading-center-helper-desktop.cta-secondary-text
+link: $heading-center-helper-desktop.cta-secondary-url
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $heading-center-helper-desktop.image
+width.fixed.percent: 40
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: heading-center-helper-desktop
+
+
+
+
+
+
+
+
+
+-- component heading-center-helper-mobile:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+ftd.image-src image:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding.px: 524
+background.solid: $inherited.colors.background.step-1
+background if { heading-center-helper-mobile.background != NULL }: $heading-center-helper-mobile.background
+spacing.fixed.px: 20
+role: $inherited.types.copy-regular
+border-radius.px: 20
+
+-- ftd.text: $heading-center-helper-mobile.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-large
+
+
+-- ftd.text: $heading-center-helper-mobile.subtitle
+if: { heading-center-helper-mobile.subtitle != NULL }
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $heading-center-helper-mobile.cta-primary-text
+link: $heading-center-helper-mobile.cta-primary-url
+
+-- button.secondary-button: $heading-center-helper-mobile.cta-secondary-text
+link: $heading-center-helper-mobile.cta-secondary-url
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: $heading-center-helper-mobile.image
+width.fixed.percent: 40
+
+
+-- end: ftd.column
+
+-- end: heading-center-helper-mobile

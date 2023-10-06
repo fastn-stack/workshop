@@ -1,0 +1,154 @@
+-- import: fastn-community.github.io/midnight-rush-hero/components/button
+
+
+-- component hero-without-image:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- without-image-helper-desktop: $hero-without-image.title
+subtitle: $hero-without-image.subtitle
+cta-primary-text: $hero-without-image.cta-primary-text
+cta-primary-url: $hero-without-image.cta-primary-url
+cta-secondary-text: $hero-without-image.cta-secondary-text
+cta-secondary-url: $hero-without-image.cta-secondary-url
+background: $hero-without-image.background
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- without-image-helper-mobile: $hero-without-image.title
+subtitle: $hero-without-image.subtitle
+cta-primary-text: $hero-without-image.cta-primary-text
+cta-primary-url: $hero-without-image.cta-primary-url
+cta-secondary-text: $hero-without-image.cta-secondary-text
+cta-secondary-url: $hero-without-image.cta-secondary-url
+background: $hero-without-image.background
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: hero-without-image
+
+
+
+
+
+
+
+
+
+
+
+
+-- component without-image-helper-desktop:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+padding-vertical.px: 100
+padding-horizontal.px: 50
+align-content: left
+spacing.fixed.px: 12
+background.solid: $inherited.colors.background.step-1
+background if { without-image-helper-desktop.background != NULL }: $without-image-helper-desktop.background
+border-radius.px: 20
+
+-- ftd.text: $without-image-helper-desktop.title
+role: $inherited.types.heading-large
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+if: { without-image-helper-desktop.subtitle != NULL }
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$without-image-helper-desktop.subtitle
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $without-image-helper-desktop.cta-primary-text
+link: $without-image-helper-desktop.cta-primary-url
+
+-- button.secondary-button: $without-image-helper-desktop.cta-secondary-text
+link: $without-image-helper-desktop.cta-secondary-url
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+
+-- end: without-image-helper-desktop
+
+
+
+
+
+
+
+
+
+
+-- component without-image-helper-mobile:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+optional ftd.background background:
+
+-- ftd.column:
+padding-vertical.px: 12
+background.solid: $inherited.colors.background.step-1
+background if { without-image-helper-mobile.background != NULL }: $without-image-helper-mobile.background
+border-radius.px: 20
+spacing.fixed.px: 16
+width: fill-container
+
+
+-- ftd.text: $without-image-helper-mobile.title
+role: $inherited.types.heading-large
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+if: { without-image-helper-mobile.subtitle != NULL }
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$without-image-helper-mobile.subtitle
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $without-image-helper-mobile.cta-primary-text
+link: $without-image-helper-mobile.cta-primary-url
+
+-- button.secondary-button: $without-image-helper-mobile.cta-secondary-text
+link: $without-image-helper-mobile.cta-secondary-url
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: without-image-helper-mobile

@@ -1,0 +1,181 @@
+-- import: fastn-community.github.io/midnight-storm-hero/components/button
+
+
+-- component hero-heading-left:
+caption title:
+ftd.image-src image:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+optional body subtitle:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.desktop:
+
+-- heading-left-helper-desktop: $hero-heading-left.title
+image: $hero-heading-left.image
+cta-primary: $hero-heading-left.cta-primary-text
+cta-primary-url: $hero-heading-left.cta-primary-url
+cta-secondary: $hero-heading-left.cta-secondary-text
+cta-secondary-url: $hero-heading-left.cta-secondary-url
+subtitle: $hero-heading-left.subtitle
+background: $hero-heading-left.background
+
+-- end: ftd.desktop
+
+-- ftd.mobile:
+
+-- heading-left-helper-mobile: $hero-heading-left.title
+image: $hero-heading-left.image
+cta-primary: $hero-heading-left.cta-primary-text
+cta-primary-url: $hero-heading-left.cta-primary-url
+cta-secondary: $hero-heading-left.cta-secondary-text
+cta-secondary-url: $hero-heading-left.cta-secondary-url
+subtitle: $hero-heading-left.subtitle
+background: $hero-heading-left.background
+
+-- end: ftd.mobile
+
+-- end: ftd.column
+
+-- end: hero-heading-left
+
+
+
+
+
+
+
+
+
+
+-- component heading-left-helper-desktop: 
+caption title:
+ftd.image-src image:
+optional string cta-primary:
+optional string cta-primary-url:
+optional string cta-secondary:
+optional string cta-secondary-url:
+optional boolean $mouse-in: false
+optional body subtitle:
+optional ftd.background background:
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+background: $heading-left-helper-desktop.background
+padding-vertical.px: 50
+border-radius.px: 20
+padding-horizontal.px: 50
+align-content: center
+margin-bottom.px: 50
+
+-- ftd.image:
+src: $heading-left-helper-desktop.image
+width.fixed.percent: 40
+
+-- ftd.column:
+align-self: center
+width.fixed.percent: 55
+spacing.fixed.px: 20
+
+-- ftd.text: $heading-left-helper-desktop.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+if: { heading-left-helper-desktop.subtitle != NULL }
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$heading-left-helper-desktop.subtitle
+
+-- ftd.row:
+spacing.fixed.px: 16
+
+-- button.primary-button: $heading-left-helper-desktop.cta-primary
+link: $heading-left-helper-desktop.cta-primary-url
+
+-- button.secondary-button: $heading-left-helper-desktop.cta-secondary
+link: $heading-left-helper-desktop.cta-secondary-url
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: heading-left-helper-desktop
+
+
+
+
+
+
+
+
+
+
+-- component heading-left-helper-mobile: 
+caption title:
+ftd.image-src image:
+optional string cta-primary:
+optional string cta-primary-url:
+optional string cta-secondary:
+optional string cta-secondary-url:
+optional boolean $mouse-in: false
+optional body subtitle:
+optional string link:
+optional ftd.background background:
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 24
+padding-bottom.px: 80
+background.solid: $heading-left-helper-mobile.background
+padding-vertical.px: 24
+border-radius.px: 20
+padding-horizontal.px: 24
+
+
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- ftd.text: $heading-left-helper-mobile.title
+role: $inherited.types.heading-medium
+color: $inherited.colors.text-strong
+
+-- ftd.text:
+role: $inherited.types.copy-regular
+color: $inherited.colors.text
+
+$heading-left-helper-mobile.subtitle
+
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 16
+
+-- button.primary-button: $heading-left-helper-mobile.cta-primary
+link: $heading-left-helper-mobile.cta-primary-url
+
+-- button.secondary-button: $heading-left-helper-mobile.cta-secondary
+link: $heading-left-helper-mobile.cta-secondary-url
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $heading-left-helper-mobile.image
+width: fill-container
+link: $heading-left-helper-mobile.link
+
+-- end: ftd.column
+
+-- end: heading-left-helper-mobile
