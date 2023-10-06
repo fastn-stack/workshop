@@ -16,11 +16,9 @@ Audience: end users of fastn (nandhini persona)
 
 portfolio website
 
-17-portfolio-website (we need only few sections for portfolio website)
 
 ## Developers Workshops
 
-- [frontend: create new design system](c-design)
 - [frontend: create a new theme](d-theme)
 - [backend: create an http app](e-http)
 - [backend: create an SQL app](f-sql)
