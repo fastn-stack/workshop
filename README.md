@@ -10,12 +10,6 @@ Workshop](https://fastn.com/workshop/).
 
 <details><summary>Upcoming Stuff</summary>
 
-## create website using fastn
-
-Audience: end users of fastn (nandhini persona)
-
-portfolio website
-
 
 ## Developers Workshops
 
