@@ -9,17 +9,19 @@
 
 
 ;; Add this where you want to show the component
--- hero.hero-heading-left: Hello I am John Doe!
+;; ========================= REMOVE THE COMMENT BELOW ==========================
+/-- hero.hero-heading-left: Hello I am John Doe!
 image: $assets.files.static.portfolio-img-1.png
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
 Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum
 erat.
+;; ================================= END =======================================
 
 
-
--- hero.hero-left-stack: Title copy goes here
+;; ================================= END =======================================
+/-- hero.hero-left-stack: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: /
 cta-secondary-text: Preview
@@ -30,21 +32,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
 Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum
 erat.
+;; ================================= END =======================================
 
 
-
--- hero.hero-without-image: Title copy goes here
+;; ================================= END =======================================
+/-- hero.hero-without-image: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: /
 cta-secondary-text: Preview
 cta-secondary-url: /
 
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
 Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum
 erat.
-
+;; ================================= END =======================================
 
 
 -- end: ds.page

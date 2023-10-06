@@ -30,6 +30,11 @@ This is banner.
 
 I am right sidebar :)
 
+-- ftd.rive:
+id: panda
+src: $assets.files.static.panda.riv
+width.fixed.px: 300
+
 -- end: page.right-sidebar
 
 
