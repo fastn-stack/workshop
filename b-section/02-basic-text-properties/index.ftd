@@ -12,11 +12,6 @@
 
 
 
-
-
-
-
-
 -- ftd.responsive-type rtype:
 desktop: $dtype
 mobile: $mtype
