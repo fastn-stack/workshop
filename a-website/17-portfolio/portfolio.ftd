@@ -1,6 +1,6 @@
 -- import: hello/assets
 ;; UNCOMMENT NEXT LINE
--- import: hero
+/-- import: hero
 
 -- ds.page:
 ;; In this page we do not want sidebar
