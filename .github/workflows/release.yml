@@ -1,0 +1,38 @@
+name: Create and Deploy Zips
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+  create-zips:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create and Publish Zips
+      run: |
+        for dir in */; do
+          folder_name="${dir%/}"
+          zip -r "$folder_name.zip" "$dir"
+        done
+
+    - name: Get the current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y%m%d%H%M%S')"
+
+    - name: Create GitHub Release
+      id: create_release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          *.zip
+        draft: false
+        prerelease: false
+        tag_name: ${{ steps.date.outputs.date }}
+        name: Latest Workshop Files
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
