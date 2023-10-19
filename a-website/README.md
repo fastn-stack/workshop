@@ -19,3 +19,8 @@ Audience: End-users of `fastn`
 - [15-add-banner](/a-website/15-add-banner/)
 - [16-add-sidebar](/a-website/16-add-sidebar/)
 - [17-portfolio](/a-website/17-portfolio/)
+
+
+# Reach Us on [Discord](https://fastn.com/discord/)
+
+For any assistance reach out to us on [Discord](https://fastn.com/discord/) and put your queries on [#ask-for-help](https://discord.com/channels/793929082483769345/1079299083283472454).
