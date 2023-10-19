@@ -26,3 +26,8 @@ Workshop](https://fastn.com/workshop/).
   - checkout a-section and b-theme
 
 </details>
+
+# Reach us on [Discord](https://fastn.com/discord/)
+
+If you ever find yourself in need of assistance or have questions, don't hesitate to join our [Discord server](https://fastn.com/discord/). We've created a dedicated channel, [#ask-for-help](https://discord.com/channels/793929082483769345/1079299083283472454), where you can freely raise your concerns, seek guidance, and connect with our helpful community. We're here to support you every step of the way!
+
