@@ -21,3 +21,8 @@ The pull request: https://github.com/Arpita-Jaiswal/arja-website/pull/1
 - [08-lists-and-loops](/b-section/08-list-and-loop/)
 - [09-mutable-variables-and-event-handling](/b-section/09-mutable-variables/)
 - [10-using-in-acme](/b-section/10-using-in-acme/)
+
+
+# Reach Us on [Discord](https://fastn.com/discord/)
+
+For any assistance reach out to us on [Discord](https://fastn.com/discord/) and put your queries on [#ask-for-help](https://discord.com/channels/793929082483769345/1079299083283472454).
