@@ -1,0 +1,78 @@
+-- import: my-site/components/header
+
+-- import: fastn-community.github.io/typography
+export: h1, h2, h3, markdown
+exposing: h1, h2, h3, markdown
+
+
+-- component page:
+optional caption title:
+optional body description:
+optional string site-name:
+optional ftd.image-src site-logo:
+optional string site-url:
+children uis:
+optional string document-title:
+optional string document-description:
+optional ftd.raw-image-src document-image:
+ftd.color-scheme colors: $inherited.colors
+ftd.type-data types: $inherited.types
+
+-- ftd.document:
+title: $page.document-title
+title if { page.document-title == NULL }: $page.title
+description: $page.document-description
+description if { page.document-description == NULL }: $page.title
+og-image: $page.document-image
+colors: $page.colors
+types: $page.types
+
+-- header.header:
+site-name: $page.site-name
+site-logo: $page.site-logo
+site-url: $page.site-url
+
+-- page-body: $page.title
+description: $page.description
+uis: $page.uis
+
+-- end: ftd.document
+
+-- end: page
+
+
+
+
+
+
+
+
+
+
+
+
+-- component page-body:
+optional caption title:
+optional body description:
+children uis:
+
+-- ftd.column:
+spacing.fixed.px: 20
+color: $inherited.colors.text
+
+
+-- h1: $page-body.title
+if: { page-body.title != NULL }
+
+$page-body.description
+
+
+-- ftd.column:
+children: $page-body.uis
+spacing.fixed.px: 20
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: page-body

@@ -1,0 +1,35 @@
+-- component sitemap-toc:
+pr.sitemap-data full-sitemap: $full-sitemap
+
+-- ftd.row:
+spacing.fixed.px: 20
+
+
+
+-- end: ftd.row
+
+-- end: sitemap-toc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component display-section:
+pr.toc-item section:
+
+-- ftd.text: $display-section.section.title
+link: $display-section.section.url
+color: $inherited.colors.text-strong
+color if { display-section.section.is-active }: $inherited.colors.cta-primary.base
+
+-- end: display-section

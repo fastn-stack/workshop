@@ -1,0 +1,94 @@
+-- import: fastn/processors as pr
+
+-- pr.sitemap-data full-sitemap:
+$processor$: pr.full-sitemap
+
+
+
+
+
+
+
+-- component header:
+optional string site-name:
+optional ftd.image-src site-logo:
+optional string site-url:
+pr.sitemap-data full-sitemap: $full-sitemap
+
+-- ftd.column:
+width: fill-container
+background.solid: $inherited.colors.background.step-1
+padding-horizontal.px: 50
+padding-vertical.px: 20
+spacing: space-between
+
+-- display-logo:
+site-name: $header.site-name
+site-logo: $header.site-logo
+site-url: $header.site-url
+
+-- end: ftd.column
+
+-- end: header
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component display-logo:
+optional string site-name:
+optional ftd.image-src site-logo:
+optional string site-url:
+
+-- ftd.row:
+spacing.fixed.px: 20
+color: $inherited.colors.text-strong
+link: $display-logo.site-url
+
+-- ftd.image:
+if: { display-logo.site-logo != NULL }
+src: $display-logo.site-logo
+width.fixed.px: 50
+
+-- ftd.text: $display-logo.site-name
+role: $inherited.types.heading-small
+
+-- end: ftd.row
+
+-- end: display-logo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component sitemap-toc:
+pr.sitemap-data full-sitemap: $full-sitemap
+
+-- ftd.row:
+spacing.fixed.px: 20
+
+
+
+-- end: ftd.row
+
+-- end: sitemap-toc

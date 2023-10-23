@@ -1,0 +1,21 @@
+-- import: fastn
+
+-- fastn.package: my-site
+
+-- fastn.dependency: fastn-community.github.io/typography
+
+-- fastn.auto-import: my-site/components/ws
+
+
+-- fastn.sitemap:
+
+# Home: /
+
+## Sub: /
+
+- Toc: /
+
+
+# Sec: /-/a/
+
+- AToc: /-/a/
