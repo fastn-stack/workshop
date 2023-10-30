@@ -1,0 +1,16 @@
+-- import: the-tutor/lib
+
+/-- import: the-tutor/a-worksho/01-hello-world as h
+
+-- lib.workshop workshop: Build Websites
+id: a-website
+tutorials: $tutorials
+
+Learn about building websites in this workshop.
+
+
+-- lib.tutorial list tutorials:
+
+/-- lib.tutorial: $h
+
+-- end: tutorials

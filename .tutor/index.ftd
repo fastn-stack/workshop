@@ -1,0 +1,16 @@
+-- import: fastn/processors as pr
+
+-- import: the-tutor/lib
+-- import: the-tutor/a-website
+
+-- lib.workshop list workshops:
+
+-- lib.workshop: $a-website.workshop
+
+-- end: workshops
+
+
+-- lib.tutor-index: `fastn` Workshops
+workshops: $workshops
+
+In this workshop you will learn fastn!

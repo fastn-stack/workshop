@@ -1,0 +1,79 @@
+-- record tutor-data:
+string list done:
+string current:
+
+-- record workshop:
+caption title:
+string id:
+tutorial list tutorials:
+body about:
+
+-- record tutorial:
+caption title:
+string id:
+body about:
+
+
+
+
+-- tutor-data data:
+$processor$: pr.tutor
+
+
+
+
+
+
+-- component tutor-index:
+caption title:
+body about:
+workshop list workshops:
+
+-- ftd.column:
+
+-- ftd.text: $tutor-index.title
+
+-- ftd.text: $tutor-index.about
+
+-- show-workshop: $workshop
+for: $workshop in $tutor-index.workshops
+
+-- end: ftd.column
+
+-- end: tutor-index
+
+
+
+
+
+-- component show-workshop:
+caption workshop w:
+
+-- ftd.column:
+
+-- ftd.text: $show-workshop.w.title
+
+-- ftd.text: $show-workshop.w.about
+
+-- show-tutorial: $tutorial
+for: $tutorial in $show-workshop.w.tutorials
+
+-- end: ftd.column
+
+
+-- end: show-workshop
+
+
+
+-- component show-tutorial:
+caption tutorial t:
+
+-- ftd.column:
+
+-- ftd.text: $show-tutorial.t.title
+
+-- ftd.text: $show-tutorial.t.about
+
+-- end: ftd.column
+
+-- end: show-tutorial
