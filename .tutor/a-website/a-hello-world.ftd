@@ -1,7 +1,7 @@
 -- import: the-tutor/lib
 
 -- lib.tutorial tutorial: Hello World
-id: a-website/01-hello-world
+url: /a-website/a-hello-world/
 
 This will hello the world.
 

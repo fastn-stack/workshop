@@ -10,7 +10,7 @@ body about:
 
 -- record tutorial:
 caption title:
-string id:
+string url:
 body about:
 
 
