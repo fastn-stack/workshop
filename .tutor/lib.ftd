@@ -30,10 +30,13 @@ body about:
 workshop list workshops:
 
 -- ftd.column:
+padding.px: 20
 
 -- ftd.text: $tutor-index.title
+role: $inherited.types.heading-medium
 
 -- ftd.text: $tutor-index.about
+role: $inherited.types.copy-regular
 
 -- show-workshop: $workshop
 for: $workshop in $tutor-index.workshops
@@ -50,10 +53,14 @@ for: $workshop in $tutor-index.workshops
 caption workshop w:
 
 -- ftd.column:
+width: fill-container
+margin-top.px: 20
 
 -- ftd.text: $show-workshop.w.title
+role: $inherited.types.heading-small
 
 -- ftd.text: $show-workshop.w.about
+role: $inherited.types.copy-regular
 
 -- show-tutorial: $tutorial
 for: $tutorial in $show-workshop.w.tutorials
@@ -69,10 +76,13 @@ for: $tutorial in $show-workshop.w.tutorials
 caption tutorial t:
 
 -- ftd.column:
+margin-top.px: 20
 
 -- ftd.text: $show-tutorial.t.title
+role: $inherited.types.heading-small
 
 -- ftd.text: $show-tutorial.t.about
+role: $inherited.types.copy-regular
 
 -- end: ftd.column
 
